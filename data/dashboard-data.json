@@ -1,133 +1,124 @@
 {
-  "lastRefreshed": "2026-03-23T17:30:00+05:30",
+  "lastRefreshed": "2026-03-23T19:30:00+05:30",
   "aiBriefing": {
-    "summary": "29 Jira tickets need attention (9 were filtered out where you already responded — comment checking is now working). Biggest theme: a huge backlog of finance approvals (credit notes, write-offs, pricing disputes) across KWF and TO projects — many dating back months. On Gmail, 7 unreplied emails with the Beyours/Nilesh founder complaint being the most urgent cross-channel issue (also flagged in Slack). You have 12 open follow-ups from emails you sent this week.",
+    "summary": "After reading 27 full email threads and 38 Jira tickets with comments: only 2 emails truly need YOU right now. Sweety Rai has STOPPED the AI Bot beta program — no resolution for a month, she's escalated directly to you. Also submit Praneet Vajpayee's interview feedback on Keka (interviewed today at 12pm). On Jira, 29 tickets are open but 20+ are finance approvals you could batch-clear. The Beyours/Nilesh billing dispute spans Slack, email, AND Jira.",
     "highlights": [
-      "URGENT: Beyours founder Nilesh upset — 7-8 month unresolved sent-vs-delivered billing dispute. Flagged in Slack by Vicky Gandhi AND in Jira (KWF-812, KWF-814). He's ready to clear old dues if rates are competitive.",
-      "FINANCE BACKLOG: 20+ finance approval tickets (CNs, write-offs, pricing) across KWF and TO — many with no comment from you. Oldest: KWF-242 (Apr 2024). Consider a batch approval session.",
-      "HIRING: PM candidate Sukhvinder Singh declined offer (joining was Mar 25) — need backfill plan. Email from Komal Rathee.",
-      "KWIKSHIP: Atul Bansal flagged in #kwikship-mktg — no KwikShip landing page exists yet, recommends delaying PR. Also: OMSGuru integration proposal from Kathan Acharya needs review.",
-      "PRODUCT: GoNoise/KwikPass meeting today — 4 action items from Fathom transcript (user flows, tech assessment, legal framework, in-person Gurgaon meeting).",
-      "META RISK: Meta Business Partner badge at risk (probation) — you escalated to Siddhartha Bahl & Pushkar Singh, awaiting update."
+      "🔴 BLOCKED ON YOU: Sweety Rai halted AI Bot beta program — her team flagged quality issues in Feb, got ZERO response for a month. Needs resolution plan from you/Pushkar/Siddhartha ASAP.",
+      "🔴 QUICK WIN: Submit interview feedback for Praneet Vajpayee (Assoc Dir Enterprise Sales) on Keka — interviewed today at 12pm.",
+      "🟡 VERIFY: Raoul cited 'as per Vijay's discussion' in Sudathi commercial terms (0.13 rate). Darshan claims you agreed to meta actuals (0.115). Confirm before this becomes a dispute.",
+      "🟡 DEADLOCK: Jan 2026 invoicing blocked — Siddhartha vs Ankit Makkar disagree on Meta billing vs RML webhooks as source of truth. May need you to break the tie.",
+      "🟡 FINANCE: 20+ Jira approval tickets (CNs, write-offs) — oldest from Apr 2024. Consider a 30-min batch approval session.",
+      "🟡 UK: JOY merchant confused about invoicing/trial. Team proposing to waive platform fee — be aware as KE International owner."
     ]
   },
   "unrepliedEmails": [
     {
-      "id": "19d19d07ea9a0298",
-      "from": "Sneha Rao (GoKwik)",
-      "subject": "Re: MS Showcase JFM-26 Quarter",
-      "snippet": "Works — confirming April 14th showcase date with Pranav Merchant and Vivek Premnath.",
-      "receivedAt": "2026-03-23T13:59:34+05:30",
-      "threadId": "19d0a5ff97104074",
-      "url": "https://mail.google.com/mail/u/0/#inbox/19d0a5ff97104074"
+      "id": "19d1bc1fb0300b3c",
+      "from": "Sweety Rai",
+      "subject": "Re: AI Bot Update : Beta Program",
+      "snippet": "🔴 BLOCKED: Ops team STOPPED recommending AI Bot to merchants. Quality issues flagged in Feb — zero response for a month. Needs resolution plan + timeline from you.",
+      "receivedAt": "2026-03-23T17:32:57+05:30",
+      "threadId": "19c479e0f014b01b",
+      "url": "https://mail.google.com/mail/u/0/#inbox/19c479e0f014b01b"
     },
     {
-      "id": "19d19bb350c30724",
-      "from": "Mrigank Srivastava (GoKwik)",
-      "subject": "Re: Draft Agreement — GoKwik WhatsApp Services & KwikPass",
-      "snippet": "Team still working on security reports and flow. Will provide ETA update by end of this week. RIL/Clovia deal.",
-      "receivedAt": "2026-03-23T12:38:21+05:30",
-      "threadId": "19bb28af2a5fd94c",
-      "url": "https://mail.google.com/mail/u/0/#inbox/19bb28af2a5fd94c"
+      "id": "19d1b6ceb91cbc3a",
+      "from": "Keka Hire",
+      "subject": "Submit feedback: Praneet Vajpayee interview",
+      "snippet": "🔴 QUICK WIN: Submit interview feedback for Associate Director Enterprise Sales — interviewed today at 12pm. Blocks hiring pipeline.",
+      "receivedAt": "2026-03-23T16:00:13+05:30",
+      "threadId": "19d1b6ceb91cbc3a",
+      "url": "https://mail.google.com/mail/u/0/#inbox/19d1b6ceb91cbc3a"
     },
     {
-      "id": "19d19b9c36040417",
-      "from": "Rohan Srivastava (GoKwik)",
-      "subject": "Re: RTO Payout Dashboard performance | Dec invoices recon",
-      "snippet": "Most remaining cases have end-state completion rate below 95%; agreements not uploaded or pending.",
-      "receivedAt": "2026-03-23T13:13:13+05:30",
-      "threadId": "19d0563447329cdc",
-      "url": "https://mail.google.com/mail/u/0/#inbox/19d0563447329cdc"
+      "id": "19d1b9cd609655dd",
+      "from": "Raoul Edward",
+      "subject": "Re: Sudathi — Credit Note (Mar-Dec 2025)",
+      "snippet": "🟡 VERIFY: Raoul sent commercials to Sudathi citing 'as per Vijay's discussion' (rate 0.13). Co-founder Darshan claims you agreed to meta actuals (0.115). Confirm the correct terms.",
+      "receivedAt": "2026-03-23T16:51:55+05:30",
+      "threadId": "19bd511f5f029017",
+      "url": "https://mail.google.com/mail/u/0/#inbox/19bd511f5f029017"
     },
     {
-      "id": "19d1912f00aad16d",
-      "from": "Himani Sharma (GoKwik)",
-      "subject": "Re: Request to Activate RCS for Beardo",
-      "snippet": "Beardo needs to modify Contact Us page (this week), then proceed with RCS activation.",
-      "receivedAt": "2026-03-23T10:32:31+05:30",
-      "threadId": "19c652303e932c91",
-      "url": "https://mail.google.com/mail/u/0/#inbox/19c652303e932c91"
+      "id": "19d1ad75cd840957",
+      "from": "Ravi Arora",
+      "subject": "Re: Jan 2026 Invoicing Conversation Difference",
+      "snippet": "🟡 DEADLOCK: Internal disagreement on source of truth (Meta billing vs RML webhooks). Blocks Jan invoicing for multiple merchants. You may need to break the tie.",
+      "receivedAt": "2026-03-23T18:46:39+05:30",
+      "threadId": "19c46c6a84790cc4",
+      "url": "https://mail.google.com/mail/u/0/#inbox/19c46c6a84790cc4"
     },
     {
-      "id": "19d198d4f18a0589",
-      "from": "Ishita Panwar (GoKwik)",
-      "subject": "Re: Introducing Mrigank",
-      "snippet": "Welcome to the team Mrigank! Reply to Vijay's intro of Mrigank joining KwikShip team.",
-      "receivedAt": "2026-03-23T12:46:12+05:30",
-      "threadId": "19d197a8dc1bbb66",
-      "url": "https://mail.google.com/mail/u/0/#inbox/19d197a8dc1bbb66"
+      "id": "19d1acdc0cf77c17",
+      "from": "Ravi Arora",
+      "subject": "Re: Billing Discrepancy — Free Webhook Being Charged",
+      "snippet": "🟡 AWARENESS: Route Mobile billing discrepancy escalating. Ravi pushing hard — vendor relationship tense. You're CC'd, no action yet but stay aware.",
+      "receivedAt": "2026-03-23T18:36:11+05:30",
+      "threadId": "19bbdcf119d15082",
+      "url": "https://mail.google.com/mail/u/0/#inbox/19bbdcf119d15082"
     },
     {
-      "id": "19d195e10fd609b4",
-      "from": "Kathan Acharya (OMSGuru)",
-      "subject": "Re: Gokwik X OMSGuru Integration",
-      "snippet": "Details are Attached — sent in reply to Vipin Yadav. Potential partner integration for KwikShip.",
-      "receivedAt": "2026-03-23T11:54:37+05:30",
-      "threadId": "19c899666186452c",
-      "url": "https://mail.google.com/mail/u/0/#inbox/19c899666186452c"
-    },
-    {
-      "id": "19d19db18eead8db",
-      "from": "Vardhan Jain (GoKwik)",
-      "subject": "Retention marketing report — data reviews",
-      "snippet": "Calendar invite for retention marketing data review meeting at 3:30pm with Ashish Agarwal.",
-      "receivedAt": "2026-03-23T14:11:21+05:30",
-      "threadId": "19d19db18eead8db",
-      "url": "https://mail.google.com/mail/u/0/#inbox/19d19db18eead8db"
+      "id": "19d1bbc11eefea54",
+      "from": "Akash Deep Goel",
+      "subject": "Re: JOY and GoKwik next steps",
+      "snippet": "🟡 UK RETENTION: JOY confused about invoicing/trial. Team proposing to waive platform fee. Be aware as KE International MS owner.",
+      "receivedAt": "2026-03-23T17:26:28+05:30",
+      "threadId": "19d1bbc11eefea54",
+      "url": "https://mail.google.com/mail/u/0/#inbox/19d1bbc11eefea54"
     }
   ],
   "actionItems": [
     {
       "id": "ai-001",
-      "text": "Send user flow diagrams for 4 KwikPass scenarios (New/Old KP x New/Old GoNoise customer) to GoNoise team",
-      "source": "Email: Fathom — KwikPass x GoNoise meeting",
+      "text": "Respond to Sweety Rai on AI Bot beta — provide resolution plan + timeline, or ensure Pushkar/Siddhartha do",
+      "source": "Email: AI Bot Update — Beta Program",
       "sourceType": "email",
-      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19d1a54c3b96732e",
+      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19c479e0f014b01b",
       "date": "2026-03-23",
       "done": false
     },
     {
       "id": "ai-002",
-      "text": "Provide technical assessment on rebuilding GoNoise account page within KwikPass (Nectar rewards, Shiprocket tracking, invoices)",
-      "source": "Email: Fathom — KwikPass x GoNoise meeting",
+      "text": "Submit interview feedback for Praneet Vajpayee on Keka (Associate Director Enterprise Sales)",
+      "source": "Keka Hire reminder",
       "sourceType": "email",
-      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19d1a54c3b96732e",
+      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19d1b6ceb91cbc3a",
       "date": "2026-03-23",
       "done": false
     },
     {
       "id": "ai-003",
-      "text": "Discuss legal framework (addendum to KwikEngage contract) and schedule in-person Gurgaon meeting with GoNoise",
-      "source": "Email: Fathom — KwikPass x GoNoise meeting",
+      "text": "Confirm Sudathi commercial terms with Raoul — did you agree to 0.13 or meta actuals (0.115)?",
+      "source": "Email: Sudathi Credit Note",
       "sourceType": "email",
-      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19d1a54c3b96732e",
+      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19bd511f5f029017",
       "date": "2026-03-23",
       "done": false
     },
     {
       "id": "ai-004",
-      "text": "Discuss Trunativ/ClickPost tracking issue with Raoul Edward tomorrow in sync-up",
-      "source": "Email: Tracking Update Failure — Urgent",
+      "text": "Break deadlock: Meta billing vs RML webhooks as source of truth for Jan 2026 invoicing",
+      "source": "Email: Jan 2026 Invoicing Difference",
       "sourceType": "email",
-      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19cfa199f2e0c863",
+      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19c46c6a84790cc4",
       "date": "2026-03-23",
       "done": false
     },
     {
       "id": "ai-005",
-      "text": "Get security report ETA from Mrigank on GoKwik WhatsApp Services & KwikPass agreement for RIL/Clovia (due this week)",
-      "source": "Email: Draft Agreement for GoKwik WhatsApp Services",
-      "sourceType": "email",
-      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19bb28af2a5fd94c",
+      "text": "Batch-clear 20+ Jira finance approval tickets (CNs, write-offs, pricing disputes)",
+      "source": "Jira: KWF + TO projects",
+      "sourceType": "jira",
+      "sourceUrl": "https://gokwik.atlassian.net/issues/?jql=project%20in%20(TO%2C%20KWF)%20AND%20assignee%20%3D%2060d03d88b1f93b006981ff4a%20AND%20status%20NOT%20IN%20(Done)%20ORDER%20BY%20updated%20DESC",
       "date": "2026-03-23",
       "done": false
     },
     {
       "id": "ai-006",
-      "text": "Approve Tellephant AWS Access for Webhook Logs (requested by Mrigank)",
-      "source": "Slack DM: Mrigank Srivastava",
-      "sourceType": "slack",
-      "sourceUrl": "https://app.slack.com/client/T01U48WNDDW/D09U7R4HKLY",
+      "text": "Send user flow diagrams for 4 KwikPass x GoNoise scenarios (from today's Fathom meeting)",
+      "source": "Email: Fathom — KwikPass x GoNoise",
+      "sourceType": "email",
+      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19d1a54c3b96732e",
       "date": "2026-03-23",
       "done": false
     }
@@ -137,7 +128,7 @@
       "id": "fu-001",
       "text": "Discuss Trunativ tracking/ClickPost conflict in tomorrow's sync-up",
       "to": "Raoul Edward",
-      "source": "Email: Tracking Update Failure — Urgent",
+      "source": "Email: Tracking Update Failure",
       "sourceType": "email",
       "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19cfa199f2e0c863",
       "date": "2026-03-23",
@@ -145,9 +136,9 @@
     },
     {
       "id": "fu-002",
-      "text": "Nudged Dharana & Vaibhav to set up call with Trunativ team on tracking/ClickPost issue",
+      "text": "Nudged Dharana & Vaibhav to set up call with Trunativ team",
       "to": "Dharana Chauhan / Vaibhav Gupta",
-      "source": "Email: Tracking Update Failure — Urgent",
+      "source": "Email: Tracking Update Failure",
       "sourceType": "email",
       "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19cfa199f2e0c863",
       "date": "2026-03-23",
@@ -155,9 +146,9 @@
     },
     {
       "id": "fu-003",
-      "text": "Asked 'Is this sorted?' — Medchain billing dispute (incorrect email charge on invoice)",
+      "text": "Asked 'Is this sorted?' — Medchain billing dispute",
       "to": "Akash Rohilla / Vicky Gandhi / Ruchika Nagpal",
-      "source": "Email: Pending Payments — Medchain Innovation",
+      "source": "Email: Pending Payments — Medchain",
       "sourceType": "email",
       "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19ce5fe43e68e17c",
       "date": "2026-03-23",
@@ -167,7 +158,7 @@
       "id": "fu-004",
       "text": "Asked 'Have we reverted?' — Instagram Posts 'Invalid Date' issue",
       "to": "Ruchika Nagpal",
-      "source": "Email: Instagram Posts Invalid Date Issue",
+      "source": "Email: Instagram Posts Invalid Date",
       "sourceType": "email",
       "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19cf4db57de05f29",
       "date": "2026-03-23",
@@ -175,9 +166,9 @@
     },
     {
       "id": "fu-005",
-      "text": "Escalated Adil Qadri in-person meeting request to Sherman",
+      "text": "Escalated Adil Qadri in-person meeting to Sherman",
       "to": "Sherman Rodrigues",
-      "source": "Email: Adil Qadri — In Person Meeting",
+      "source": "Email: Adil Qadri Meeting",
       "sourceType": "email",
       "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19cc2e4b1277e03e",
       "date": "2026-03-23",
@@ -185,47 +176,7 @@
     },
     {
       "id": "fu-006",
-      "text": "Promised to discuss product feature support needs in today's call",
-      "to": "Ruchika Nagpal",
-      "source": "Email: MS KwikEngage Feb'26 Update",
-      "sourceType": "email",
-      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19cdb3f65d586059",
-      "date": "2026-03-23",
-      "status": "pending"
-    },
-    {
-      "id": "fu-007",
-      "text": "Asked '@Shraddha closed?' — Saadaa Jan-26 invoice discrepancy",
-      "to": "Shraddha Sahni",
-      "source": "Email: Discrepancies in Jan-26 Invoice",
-      "sourceType": "email",
-      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19ce03e4520f2485",
-      "date": "2026-03-23",
-      "status": "pending"
-    },
-    {
-      "id": "fu-008",
-      "text": "Asked 'Solved?' — incorrect tagging of gokwik_ppcod_upi in KwikShip order data",
-      "to": "Aseem Goyal / Tanmay Shrivastava / Harshita Tanwar",
-      "source": "Email: Incorrect Tagging in Order Data",
-      "sourceType": "email",
-      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19ce0d79e665f1f7",
-      "date": "2026-03-23",
-      "status": "pending"
-    },
-    {
-      "id": "fu-009",
-      "text": "Asked 'Is this done?' — Beardo RCS activation (waiting on Contact Us page update)",
-      "to": "Himani Sharma",
-      "source": "Email: RCS for Beardo",
-      "sourceType": "email",
-      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19c652303e932c91",
-      "date": "2026-03-23",
-      "status": "pending"
-    },
-    {
-      "id": "fu-010",
-      "text": "Escalated Meta Business Partner badge probation to Siddhartha & Pushkar — awaiting update",
+      "text": "Escalated Meta Business Partner badge probation — awaiting update",
       "to": "Siddhartha Bahl / Pushkar Singh",
       "source": "Email: Meta Business Partner badge at risk",
       "sourceType": "email",
@@ -234,17 +185,17 @@
       "status": "pending"
     },
     {
-      "id": "fu-011",
-      "text": "Asked Ruchika to audit old distribution lists and set auto-forward after KwikPass routing issue",
+      "id": "fu-007",
+      "text": "Asked Ruchika to audit old distribution lists and set auto-forward",
       "to": "Ruchika Nagpal",
-      "source": "Email: KwikPass integration and billing issue",
+      "source": "Email: KwikPass routing issue",
       "sourceType": "email",
       "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19ce2a9a3addf17d",
       "date": "2026-03-23",
       "status": "pending"
     },
     {
-      "id": "fu-012",
+      "id": "fu-008",
       "text": "Committed to restart AI Calling push once product is stabilised",
       "to": "Chirag Taneja (CEO)",
       "source": "Email: AI Calling Update",
@@ -254,18 +205,8 @@
       "status": "pending"
     },
     {
-      "id": "fu-slack-001",
-      "text": "Tasked kwikchatcsteam: take IG adoption to first 5 merchants and understand VD",
-      "to": "#kc-new-features / CSM team",
-      "source": "Slack: #kc-new-features",
-      "sourceType": "slack",
-      "sourceUrl": "https://app.slack.com/client/T01U48WNDDW/C076602JFG9",
-      "date": "2026-03-23",
-      "status": "pending"
-    },
-    {
-      "id": "fu-slack-002",
-      "text": "Pinged Nisheeth 'broooo pls check' — Beyours founder Nilesh complaint (sent-vs-delivered, old dues, Limechat rates)",
+      "id": "fu-009",
+      "text": "Pinged Nisheeth 'broooo pls check' — Beyours/Nilesh billing dispute",
       "to": "Nisheeth Chandrasekharan",
       "source": "Slack: Group DM",
       "sourceType": "slack",
@@ -274,12 +215,12 @@
       "status": "pending"
     },
     {
-      "id": "fu-jira-001",
-      "text": "Told Lajree 'Go Ahead. Only ask is sign 1 year contract!' — confirm contract was signed",
-      "to": "Shubham / Lajree team",
-      "source": "Jira: TO-60044",
-      "sourceType": "jira",
-      "sourceUrl": "https://gokwik.atlassian.net/browse/TO-60044",
+      "id": "fu-010",
+      "text": "Tasked CSM team: take IG adoption to first 5 merchants and understand VD",
+      "to": "#kc-new-features / CSM team",
+      "source": "Slack: #kc-new-features",
+      "sourceType": "slack",
+      "sourceUrl": "https://app.slack.com/client/T01U48WNDDW/C076602JFG9",
       "date": "2026-03-23",
       "status": "pending"
     }
@@ -313,15 +254,6 @@
       "type": "Finance Approval"
     },
     {
-      "key": "TO-62533",
-      "summary": "Integration query — why no integration?",
-      "status": "In Progress",
-      "priority": "Medium",
-      "dueDate": null,
-      "url": "https://gokwik.atlassian.net/browse/TO-62533",
-      "type": "Task"
-    },
-    {
       "key": "KWF-916",
       "summary": "RCA follow-up — pending approval after RCA",
       "status": "To Do",
@@ -341,7 +273,7 @@
     },
     {
       "key": "KWF-814",
-      "summary": "Sent→Delivered billing issue — founder holding payments",
+      "summary": "Beyours — Sent→Delivered billing issue (founder holding payments)",
       "status": "To Do",
       "priority": "Medium",
       "dueDate": null,
@@ -350,7 +282,7 @@
     },
     {
       "key": "KWF-812",
-      "summary": "Status Quo — Credit Note — Sent to Delivered (Beyours)",
+      "summary": "Beyours — Credit Note (Sent to Delivered)",
       "status": "To Do",
       "priority": "Medium",
       "dueDate": null,
@@ -392,15 +324,6 @@
       "dueDate": null,
       "url": "https://gokwik.atlassian.net/browse/KWF-900",
       "type": "Finance Approval"
-    },
-    {
-      "key": "TO-60044",
-      "summary": "Lajree — contract follow-up (1 year contract ask)",
-      "status": "In Progress",
-      "priority": "Medium",
-      "dueDate": null,
-      "url": "https://gokwik.atlassian.net/browse/TO-60044",
-      "type": "Task"
     },
     {
       "key": "KWF-793",
@@ -493,21 +416,30 @@
       "type": "Finance Approval"
     },
     {
+      "key": "TO-62533",
+      "summary": "Integration query — why no integration?",
+      "status": "In Progress",
+      "priority": "Medium",
+      "dueDate": null,
+      "url": "https://gokwik.atlassian.net/browse/TO-62533",
+      "type": "Task"
+    },
+    {
+      "key": "TO-60044",
+      "summary": "Lajree — confirm 1-year contract was signed",
+      "status": "In Progress",
+      "priority": "Medium",
+      "dueDate": null,
+      "url": "https://gokwik.atlassian.net/browse/TO-60044",
+      "type": "Task"
+    },
+    {
       "key": "TO-63178",
       "summary": "C2P unmasked data — ticket open",
       "status": "In Progress",
       "priority": "Medium",
       "dueDate": null,
       "url": "https://gokwik.atlassian.net/browse/TO-63178",
-      "type": "Task"
-    },
-    {
-      "key": "TO-8923",
-      "summary": "Old 2024 open ticket",
-      "status": "In Progress",
-      "priority": "Medium",
-      "dueDate": null,
-      "url": "https://gokwik.atlassian.net/browse/TO-8923",
       "type": "Task"
     },
     {
@@ -545,6 +477,15 @@
       "dueDate": null,
       "url": "https://gokwik.atlassian.net/browse/KWF-799",
       "type": "Finance Approval"
+    },
+    {
+      "key": "KWIK-593",
+      "summary": "Change courier name — needs triage",
+      "status": "New",
+      "priority": "Medium",
+      "dueDate": null,
+      "url": "https://gokwik.atlassian.net/browse/KWIK-593",
+      "type": "Task"
     }
   ],
   "slackAttention": [
@@ -553,7 +494,7 @@
       "type": "mention",
       "from": "Vicky Gandhi",
       "channel": "Group DM",
-      "preview": "Got a call from Beyours founder Nilesh, he was quite upset. Raised this issue 7-8 months ago...",
+      "preview": "Beyours founder Nilesh upset — 7-8 month unresolved sent-vs-delivered billing dispute. Ready to clear old dues if rates competitive.",
       "timestamp": "2026-03-23T15:15:07+05:30",
       "url": "https://app.slack.com/client/T01U48WNDDW/C09AQ9JT69F"
     },
@@ -571,7 +512,7 @@
       "type": "mention",
       "from": "Vicky Gandhi",
       "channel": "#kwikchat_billing",
-      "preview": "We haven't received any update so far. It becomes quite difficult for us to reverse incorrect charges...",
+      "preview": "Haven't received update on reversing incorrect charges — becoming difficult for ops.",
       "timestamp": "2026-03-23T10:51:58+05:30",
       "url": "https://app.slack.com/client/T01U48WNDDW/C05732GJ1BJ"
     },
@@ -580,7 +521,7 @@
       "type": "mention",
       "from": "Atul Bansal",
       "channel": "#kwikship-mktg",
-      "preview": "Where will people searching for KwikShip after reading the PR go? There is no KwikShip page on website...",
+      "preview": "No KwikShip page on website — where will people go after reading the PR? Recommends delaying.",
       "timestamp": "2026-03-23T11:55:10+05:30",
       "url": "https://app.slack.com/client/T01U48WNDDW/C0AKU57MRK8"
     },
@@ -603,29 +544,11 @@
       "url": "https://app.slack.com/client/T01U48WNDDW/C0AGK4EPJ57"
     },
     {
-      "id": "s-007",
-      "type": "mention",
-      "from": "Surobhi Majumdar",
-      "channel": "#recognition",
-      "preview": "Shoutout to Amit Kumar for outstanding dashboard walkthrough to Secret Alchemist — CC Vijay",
-      "timestamp": "2026-03-23T15:07:06+05:30",
-      "url": "https://app.slack.com/client/T01U48WNDDW/C01M9FA5J07"
-    },
-    {
-      "id": "s-008",
-      "type": "mention",
-      "from": "Nisheeth Chandrasekharan",
-      "channel": "#kwikchat_billing",
-      "preview": "Sure Vijay",
-      "timestamp": "2026-03-23T13:45:07+05:30",
-      "url": "https://app.slack.com/client/T01U48WNDDW/C05732GJ1BJ"
-    },
-    {
       "id": "s-009",
       "type": "dm",
       "from": "Mrigank Srivastava",
       "channel": "DM",
-      "preview": "PFB The NDR Report [SharePoint link]",
+      "preview": "Shared NDR Report [SharePoint link]",
       "timestamp": "2026-03-23T16:59:52+05:30",
       "url": "https://app.slack.com/client/T01U48WNDDW/D09U7R4HKLY"
     },
@@ -652,59 +575,14 @@
       "type": "dm",
       "from": "Ashish Agarwal",
       "channel": "DM",
-      "preview": "[message with attachment/image]",
+      "preview": "[shared attachment/image]",
       "timestamp": "2026-03-23T17:05:57+05:30",
-      "url": "https://app.slack.com/client/T01U48WNDDW/D0842C2BJH4"
-    },
-    {
-      "id": "s-013",
-      "type": "dm",
-      "from": "Shivam Gupta",
-      "channel": "DM",
-      "preview": "Debugging me lacking... for new features working superb",
-      "timestamp": "2026-03-23T14:48:18+05:30",
-      "url": "https://app.slack.com/client/T01U48WNDDW/D09P7B260P9"
-    },
-    {
-      "id": "s-014",
-      "type": "dm",
-      "from": "Tripti",
-      "channel": "DM",
-      "preview": "Refining it further, adding more features. Newer version should be clearer.",
-      "timestamp": "2026-03-23T13:26:31+05:30",
-      "url": "https://app.slack.com/client/T01U48WNDDW/D08EC79AGAD"
-    },
-    {
-      "id": "s-015",
-      "type": "dm",
-      "from": "Atul Chaudhary",
-      "channel": "DM",
-      "preview": "let me check with them",
-      "timestamp": "2026-03-23T14:18:13+05:30",
-      "url": "https://app.slack.com/client/T01U48WNDDW/D05C8P1RCHW"
-    },
-    {
-      "id": "s-016",
-      "type": "thread",
-      "from": "Himanshi Pahuja",
-      "channel": "Group DM (Marketing team)",
-      "preview": "We need to book the time with the videographer accordingly",
-      "timestamp": "2026-03-23T17:06:31+05:30",
-      "url": "https://app.slack.com/client/T01U48WNDDW/C0AL5L4SL3A"
-    },
-    {
-      "id": "s-017",
-      "type": "thread",
-      "from": "Siddhartha Bahl",
-      "channel": "Group DM (Vijay, Siddhartha, Apoorv)",
-      "preview": "Added here — [Google Sheets link]",
-      "timestamp": "2026-03-23T15:31:45+05:30",
-      "url": "https://app.slack.com/client/T01U48WNDDW/C0A8DNFJ7TR"
+      "url": "https://app.slack.com/client/T01U48WNDDW/D0842C4BJH4"
     }
   ],
   "pullStats": {
-    "gmailSearched": 30,
-    "gmailUnreplied": 7,
+    "gmailSearched": 50,
+    "gmailUnreplied": 6,
     "gmailTranscriptsRead": 1,
     "jiraTicketsChecked": 38,
     "jiraCommentsRead": 38,
@@ -712,6 +590,6 @@
     "slackChannelsScanned": 5,
     "slackDmsChecked": 10,
     "slackMentionsFound": 9,
-    "followUpsExtracted": 15
+    "followUpsExtracted": 10
   }
 }
