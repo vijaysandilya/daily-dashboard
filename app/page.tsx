@@ -10,6 +10,7 @@ import JiraBoard from "@/components/JiraBoard";
 import SlackAttention from "@/components/SlackAttention";
 import OkrTracker from "@/components/OkrTracker";
 import ThemeToggle from "@/components/ThemeToggle";
+import RefreshButton from "@/components/RefreshButton";
 import RefreshBadge from "@/components/RefreshBadge";
 
 export default function Home() {
@@ -29,7 +30,10 @@ export default function Home() {
               pullStats={data.pullStats}
             />
           </div>
-          <ThemeToggle />
+          <div className="flex items-center gap-2">
+            <RefreshButton lastRefreshed={data.lastRefreshed} />
+            <ThemeToggle />
+          </div>
         </div>
       </header>
 
