@@ -1,0 +1,42 @@
+{
+  "objectives": [
+    {
+      "title": "KwikEngage Growth",
+      "keyResults": [
+        {
+          "title": "Monthly active merchant retention",
+          "target": "40",
+          "current": "32",
+          "unit": "%"
+        },
+        {
+          "title": "Campaign conversion rate",
+          "target": "5",
+          "current": "3.2",
+          "unit": "%"
+        }
+      ]
+    },
+    {
+      "title": "KwikShip Product Excellence",
+      "keyResults": [
+        {
+          "title": "On-time delivery rate",
+          "target": "95",
+          "current": "88",
+          "unit": "%"
+        },
+        {
+          "title": "RTO reduction",
+          "target": "15",
+          "current": "22",
+          "unit": "%"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Q1 focus: onboarding flow improvement",
+    "Weekly sync with engineering on Mondays"
+  ]
+}

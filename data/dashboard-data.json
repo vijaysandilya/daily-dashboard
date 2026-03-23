@@ -1,0 +1,144 @@
+{
+  "lastRefreshed": "2026-03-23T07:00:00+05:30",
+  "aiBriefing": {
+    "summary": "You have 4 unreplied emails older than 2 days, 2 overdue Jira tickets, and 3 Slack DMs waiting. The KwikEngage retention OKR needs attention — you're at 32% vs 40% target with Q1 ending next week.",
+    "highlights": [
+      "Overdue: ENGAGE-142 (campaign analytics revamp) — due 3 days ago",
+      "3 emails about KwikShip delivery SLA from ops team — needs your call",
+      "Slack: @rajesh asked about budget approval in #kwikengage-planning — 18h ago",
+      "Weekly engineering sync tomorrow — no agenda shared yet"
+    ]
+  },
+  "unrepliedEmails": [
+    {
+      "id": "1",
+      "from": "Rajesh Kumar",
+      "subject": "KwikEngage Q1 Budget Approval Needed",
+      "snippet": "Hi Vijay, could you review and approve the Q1 budget for the engagement campaigns...",
+      "receivedAt": "2026-03-20T14:30:00+05:30",
+      "threadId": "t1"
+    },
+    {
+      "id": "2",
+      "from": "Priya Sharma",
+      "subject": "Re: Delivery SLA Changes - Action Required",
+      "snippet": "Following up on the SLA discussion from last week. We need your sign-off on...",
+      "receivedAt": "2026-03-21T09:15:00+05:30",
+      "threadId": "t2"
+    },
+    {
+      "id": "3",
+      "from": "Amit Patel",
+      "subject": "Partnership Proposal - QuickCommerce Integration",
+      "snippet": "I'd like to discuss a potential integration between our platforms...",
+      "receivedAt": "2026-03-22T11:00:00+05:30",
+      "threadId": "t3"
+    },
+    {
+      "id": "4",
+      "from": "Sarah Chen",
+      "subject": "Re: Campaign Performance Report - March Week 3",
+      "snippet": "The numbers are looking better this week. Can you share your thoughts on...",
+      "receivedAt": "2026-03-22T16:45:00+05:30",
+      "threadId": "t4"
+    }
+  ],
+  "actionItems": [
+    {
+      "id": "a1",
+      "text": "Review and approve Q1 KwikEngage campaign budget",
+      "source": "Email from Rajesh Kumar",
+      "sourceType": "email",
+      "date": "2026-03-20",
+      "done": false
+    },
+    {
+      "id": "a2",
+      "text": "Sign off on new delivery SLA thresholds",
+      "source": "Email from Priya Sharma",
+      "sourceType": "email",
+      "date": "2026-03-21",
+      "done": false
+    },
+    {
+      "id": "a3",
+      "text": "Share agenda for Monday engineering sync",
+      "source": "#kwikengage-engineering Slack thread",
+      "sourceType": "slack",
+      "date": "2026-03-22",
+      "done": false
+    },
+    {
+      "id": "a4",
+      "text": "Update campaign analytics dashboard wireframes",
+      "source": "ENGAGE-142",
+      "sourceType": "jira",
+      "date": "2026-03-19",
+      "done": false
+    }
+  ],
+  "jiraTickets": [
+    {
+      "key": "ENGAGE-142",
+      "summary": "Campaign Analytics Revamp - Phase 1",
+      "status": "In Progress",
+      "priority": "High",
+      "dueDate": "2026-03-20",
+      "url": "https://gokwik.atlassian.net/browse/ENGAGE-142",
+      "type": "Story"
+    },
+    {
+      "key": "ENGAGE-155",
+      "summary": "Merchant onboarding flow optimization",
+      "status": "In Progress",
+      "priority": "High",
+      "dueDate": "2026-03-28",
+      "url": "https://gokwik.atlassian.net/browse/ENGAGE-155",
+      "type": "Story"
+    },
+    {
+      "key": "SHIP-089",
+      "summary": "RTO prediction model v2 integration",
+      "status": "To Do",
+      "priority": "Medium",
+      "dueDate": "2026-04-05",
+      "url": "https://gokwik.atlassian.net/browse/SHIP-089",
+      "type": "Task"
+    },
+    {
+      "key": "ENGAGE-160",
+      "summary": "Fix WhatsApp template approval delays",
+      "status": "Blocked",
+      "priority": "Critical",
+      "dueDate": "2026-03-25",
+      "url": "https://gokwik.atlassian.net/browse/ENGAGE-160",
+      "type": "Bug"
+    }
+  ],
+  "slackAttention": [
+    {
+      "id": "s1",
+      "type": "dm",
+      "from": "Aman Gupta",
+      "channel": "DM",
+      "preview": "Hey Vijay, quick question about the KwikShip pricing model changes...",
+      "timestamp": "2026-03-22T22:10:00+05:30"
+    },
+    {
+      "id": "s2",
+      "type": "mention",
+      "from": "Rajesh Kumar",
+      "channel": "#kwikengage-planning",
+      "preview": "@vijay can you confirm the budget numbers before EOD?",
+      "timestamp": "2026-03-22T13:30:00+05:30"
+    },
+    {
+      "id": "s3",
+      "type": "thread",
+      "from": "Neha Verma",
+      "channel": "#product-updates",
+      "preview": "Updated the PRD based on your feedback. 3 new comments to review.",
+      "timestamp": "2026-03-22T17:45:00+05:30"
+    }
+  ]
+}
