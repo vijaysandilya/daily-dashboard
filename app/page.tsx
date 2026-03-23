@@ -4,6 +4,7 @@ import type { DashboardData, GoalsData } from "@/lib/types";
 import AiBriefing from "@/components/AiBriefing";
 import UnrepliedEmails from "@/components/UnrepliedEmails";
 import ActionItems from "@/components/ActionItems";
+import FollowUps from "@/components/FollowUps";
 import JiraBoard from "@/components/JiraBoard";
 import SlackAttention from "@/components/SlackAttention";
 import OkrTracker from "@/components/OkrTracker";
@@ -22,7 +23,10 @@ export default function Home() {
             <h1 className="text-xl font-bold text-gray-900 dark:text-white">
               Good Morning, Vijay
             </h1>
-            <RefreshBadge lastRefreshed={data.lastRefreshed} />
+            <RefreshBadge
+              lastRefreshed={data.lastRefreshed}
+              pullStats={data.pullStats}
+            />
           </div>
           <ThemeToggle />
         </div>
@@ -36,7 +40,10 @@ export default function Home() {
           <SlackAttention items={data.slackAttention} />
         </div>
 
-        <ActionItems items={data.actionItems} />
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <ActionItems items={data.actionItems} />
+          <FollowUps items={data.followUps || []} />
+        </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <JiraBoard tickets={data.jiraTickets} />

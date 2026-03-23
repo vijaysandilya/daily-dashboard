@@ -224,5 +224,18 @@
       "timestamp": "2026-03-20T13:37:44+05:30",
       "url": "https://app.slack.com/client/T01U48WNDDW/D083X4PDUQ3"
     }
-  ]
+  ],
+  "followUps": [],
+  "pullStats": {
+    "gmailSearched": 30,
+    "gmailUnreplied": 5,
+    "gmailTranscriptsRead": 0,
+    "jiraTicketsChecked": 20,
+    "jiraCommentsRead": 0,
+    "jiraActive": 6,
+    "slackChannelsScanned": 0,
+    "slackDmsChecked": 10,
+    "slackMentionsFound": 0,
+    "followUpsExtracted": 0
+  }
 }

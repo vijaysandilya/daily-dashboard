@@ -1,0 +1,87 @@
+{
+  "groups": {
+    "kwikengage_core": {
+      "label": "KwikEngage/KwikChat Core",
+      "channels": [
+        {"id": "C091E1C5V8E", "name": "kc-engage-prod-issues"},
+        {"id": "C08E9P0B7B2", "name": "kc-engagement-internal"},
+        {"id": "C076602JFG9", "name": "kc-new-features"},
+        {"id": "C07N350284S", "name": "kc-csm-leads"},
+        {"id": "C0568N0AJ3W", "name": "kc_csm_team"},
+        {"id": "C055RM5CNEB", "name": "kc_csm_queries"},
+        {"id": "C07G0V8BDBL", "name": "kc_csm_morning_stand_up_mom"},
+        {"id": "C05QR4QKEF2", "name": "kc_ops_ms"},
+        {"id": "C072VNL0TJB", "name": "kc_ops_support"},
+        {"id": "C055Y6EMA8P", "name": "kwikchat-core"},
+        {"id": "C05N6JE1A02", "name": "kwikchat-fire"},
+        {"id": "C056CQ2AAKT", "name": "kwikchat-team"},
+        {"id": "C056DE49Y2Y", "name": "kwikchat-tech"},
+        {"id": "C05732GJ1BJ", "name": "kwikchat_billing"},
+        {"id": "C0582QYNR8S", "name": "kwikchat_product_program"},
+        {"id": "C058S6BP4DR", "name": "kwikchat_sprintplanning"},
+        {"id": "C062YFK18LX", "name": "kwikchat-ms"},
+        {"id": "C09LCJ2G66T", "name": "kwikengage-lt-arpu"},
+        {"id": "C0A98V58M71", "name": "kwikengage-product-adoption"},
+        {"id": "C06SR1K33MG", "name": "kwikengage_marketing"},
+        {"id": "C09UZLQNAUU", "name": "kwikengage_mumbai-team"},
+        {"id": "C0A8NHVT2F5", "name": "ke_kc_lt"},
+        {"id": "C0AE1MQ710E", "name": "ke_marketing_sales_product"},
+        {"id": "C09UA0JK14L", "name": "ke_ops_lt"},
+        {"id": "C09U4CE45UN", "name": "ke_ops_scale_int_plg"},
+        {"id": "C0ALZD6SGRL", "name": "kwik-engage-clm-alerts"},
+        {"id": "C061V8N7GAE", "name": "kc_kwikpass_business"}
+      ]
+    },
+    "kwikship": {
+      "label": "KwikShip",
+      "channels": [
+        {"id": "C07LFKNQYMR", "name": "kwikship"},
+        {"id": "C09R430DAPR", "name": "kwikship-business"},
+        {"id": "C091YCFN2HG", "name": "kwikship-tech"},
+        {"id": "C09NCRCJU2K", "name": "kwikship_ms"},
+        {"id": "C09RZA95GJY", "name": "kwikship_sales"},
+        {"id": "C089Q4FME4E", "name": "kwikship-crosssell"},
+        {"id": "C09TAQ6T8TY", "name": "kwikship-engage-msgs"},
+        {"id": "C0ALR7QFP6H", "name": "kwikship-ai-discussion"},
+        {"id": "C0AM1MNMJGJ", "name": "kwikship-ai-escalation"},
+        {"id": "C09MED2KCJK", "name": "kwikship-ellora"},
+        {"id": "C0AJL4Z6GE9", "name": "kwikship-legal-update"},
+        {"id": "C0AKU57MRK8", "name": "kwikship-mktg"},
+        {"id": "C0A10A70BB2", "name": "kwikship-rp"},
+        {"id": "C09F0AKA7AB", "name": "kwik_ship_engage"},
+        {"id": "C0A6MAWC23V", "name": "ks-ops"},
+        {"id": "C0A02JBB22D", "name": "drv-kwikship"}
+      ]
+    },
+    "leadership": {
+      "label": "Leadership/Strategy",
+      "channels": [
+        {"id": "C0A8NHVT2F5", "name": "ke_kc_lt"},
+        {"id": "C02P5R4EXBN", "name": "product-seniors"},
+        {"id": "C01RK3Q9KAT", "name": "product-internal"},
+        {"id": "C03GNK5QQ2V", "name": "cop-pm"},
+        {"id": "C0948SCU4GZ", "name": "growth"}
+      ]
+    },
+    "finance": {
+      "label": "Finance",
+      "channels": [
+        {"id": "C01LXSB1QCE", "name": "finance"},
+        {"id": "C032MUVHYG1", "name": "finance-internal-channel"},
+        {"id": "C03N9KV7HK8", "name": "ops-finance"},
+        {"id": "C08775V6L72", "name": "finance-dashboard"},
+        {"id": "C05732GJ1BJ", "name": "kwikchat_billing"}
+      ]
+    },
+    "merchant_specific": {
+      "label": "Merchant Channels",
+      "channels": [
+        {"id": "C0944U3780K", "name": "puma_kwikengage"},
+        {"id": "C09SRDFHJ5S", "name": "marico_kwikengage"},
+        {"id": "C08JTN5UN0J", "name": "plix_kwikengage"},
+        {"id": "C0AJR3RLF34", "name": "giva-kwikengage"},
+        {"id": "C08K0LQ8656", "name": "frido-kwikengage"}
+      ]
+    }
+  }
+}

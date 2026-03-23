@@ -3,8 +3,10 @@ export interface DashboardData {
   aiBriefing: AiBriefing;
   unrepliedEmails: UnrepliedEmail[];
   actionItems: ActionItem[];
+  followUps: FollowUp[];
   jiraTickets: JiraTicket[];
   slackAttention: SlackItem[];
+  pullStats: PullStats;
 }
 
 export interface AiBriefing {
@@ -50,6 +52,30 @@ export interface SlackItem {
   preview: string;
   timestamp: string;
   url: string;
+}
+
+export interface FollowUp {
+  id: string;
+  text: string;
+  to: string;
+  source: string;
+  sourceType: "email" | "slack" | "jira";
+  sourceUrl: string;
+  date: string;
+  status: "pending" | "done";
+}
+
+export interface PullStats {
+  gmailSearched: number;
+  gmailUnreplied: number;
+  gmailTranscriptsRead: number;
+  jiraTicketsChecked: number;
+  jiraCommentsRead: number;
+  jiraActive: number;
+  slackChannelsScanned: number;
+  slackDmsChecked: number;
+  slackMentionsFound: number;
+  followUpsExtracted: number;
 }
 
 export interface GoalsData {
