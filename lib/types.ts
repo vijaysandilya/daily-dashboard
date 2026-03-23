@@ -4,9 +4,31 @@ export interface DashboardData {
   unrepliedEmails: UnrepliedEmail[];
   actionItems: ActionItem[];
   followUps: FollowUp[];
+  financeApprovals: FinanceApproval[];
+  financeNeedsClarification: FinanceClarification[];
   jiraTickets: JiraTicket[];
   slackAttention: SlackItem[];
   pullStats: PullStats;
+}
+
+export interface FinanceApproval {
+  key: string;
+  summary: string;
+  amount: string | null;
+  requestedBy: string;
+  whatToApprove: string;
+  createdDate: string;
+  daysPending: number;
+  priority: string;
+  url: string;
+}
+
+export interface FinanceClarification {
+  key: string;
+  summary: string;
+  vijayQuestion: string;
+  lastReply: string;
+  url: string;
 }
 
 export interface AiBriefing {

@@ -5,6 +5,7 @@ import AiBriefing from "@/components/AiBriefing";
 import UnrepliedEmails from "@/components/UnrepliedEmails";
 import ActionItems from "@/components/ActionItems";
 import FollowUps from "@/components/FollowUps";
+import FinanceApprovals from "@/components/FinanceApprovals";
 import JiraBoard from "@/components/JiraBoard";
 import SlackAttention from "@/components/SlackAttention";
 import OkrTracker from "@/components/OkrTracker";
@@ -39,6 +40,11 @@ export default function Home() {
           <UnrepliedEmails emails={data.unrepliedEmails} />
           <SlackAttention items={data.slackAttention} />
         </div>
+
+        <FinanceApprovals
+          approvals={data.financeApprovals || []}
+          clarifications={data.financeNeedsClarification || []}
+        />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <ActionItems items={data.actionItems} />
