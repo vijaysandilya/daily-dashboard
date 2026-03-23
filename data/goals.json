@@ -1,42 +1,43 @@
 {
   "objectives": [
     {
-      "title": "KwikEngage Growth",
+      "title": "KwikEngage India - 130 Cr CM by Mar 2027",
       "keyResults": [
         {
-          "title": "Monthly active merchant retention",
-          "target": "40",
-          "current": "32",
-          "unit": "%"
-        },
-        {
-          "title": "Campaign conversion rate",
-          "target": "5",
-          "current": "3.2",
-          "unit": "%"
+          "title": "Contribution Margin (Cr)",
+          "target": "130",
+          "current": "0",
+          "unit": " Cr"
         }
       ]
     },
     {
-      "title": "KwikShip Product Excellence",
+      "title": "KwikShip - 40 Cr CM (Product Role)",
       "keyResults": [
         {
-          "title": "On-time delivery rate",
-          "target": "95",
-          "current": "88",
-          "unit": "%"
-        },
+          "title": "Contribution Margin (Cr)",
+          "target": "40",
+          "current": "0",
+          "unit": " Cr"
+        }
+      ]
+    },
+    {
+      "title": "KwikEngage International (MS Role)",
+      "keyResults": [
         {
-          "title": "RTO reduction",
-          "target": "15",
-          "current": "22",
+          "title": "Revenue growth target",
+          "target": "100",
+          "current": "0",
           "unit": "%"
         }
       ]
     }
   ],
   "notes": [
-    "Q1 focus: onboarding flow improvement",
-    "Weekly sync with engineering on Mondays"
+    "KwikEngage India: P&L owner - primary business responsibility",
+    "KwikShip: Product role - enable business team",
+    "KwikEngage International: MS role - growth & revenue targets",
+    "Update current values as actuals come in"
   ]
 }

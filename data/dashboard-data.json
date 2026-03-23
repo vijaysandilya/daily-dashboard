@@ -1,144 +1,228 @@
 {
-  "lastRefreshed": "2026-03-23T07:00:00+05:30",
+  "lastRefreshed": "2026-03-23T14:30:00+05:30",
   "aiBriefing": {
-    "summary": "You have 4 unreplied emails older than 2 days, 2 overdue Jira tickets, and 3 Slack DMs waiting. The KwikEngage retention OKR needs attention — you're at 32% vs 40% target with Q1 ending next week.",
+    "summary": "5 unreplied emails need attention, led by a ~42 Lac INR payment dispute with TrustSignal that's been escalating. A candidate for your PM role has backed out 2 days before joining. You have 6 actionable Jira tickets in New status (mostly finance approvals). 10 Slack DMs are pending including an AWS access approval request from Mrigank.",
     "highlights": [
-      "Overdue: ENGAGE-142 (campaign analytics revamp) — due 3 days ago",
-      "3 emails about KwikShip delivery SLA from ops team — needs your call",
-      "Slack: @rajesh asked about budget approval in #kwikengage-planning — 18h ago",
-      "Weekly engineering sync tomorrow — no agenda shared yet"
+      "URGENT: TrustSignal payment dispute (~42L) - Prashant Kumar requesting Google Meet to resolve credit note issue",
+      "HIRING: Candidate Sukhvinder Singh declined PM offer (joining was 25 Mar) - need backfill plan",
+      "SAADAA KwikShip agreement pending since 6 Mar - follow up with Harshita/Mrigank",
+      "Beardo RCS onboarding blocked on their Contact Us page update (deadline: this week)",
+      "Mrigank needs AWS access approval for Tellephant Webhook Logs"
     ]
   },
   "unrepliedEmails": [
     {
-      "id": "1",
-      "from": "Rajesh Kumar",
-      "subject": "KwikEngage Q1 Budget Approval Needed",
-      "snippet": "Hi Vijay, could you review and approve the Q1 budget for the engagement campaigns...",
-      "receivedAt": "2026-03-20T14:30:00+05:30",
-      "threadId": "t1"
+      "id": "19d1980b7226e7e6",
+      "from": "Prashant Kumar (TrustSignal)",
+      "subject": "Re: Inv_1433_Goexcelsior",
+      "snippet": "Following up on outstanding payments (~42 Lac). Your team is requesting a credit note. Could you please clarify?",
+      "receivedAt": "2026-03-23T07:02:25+05:30",
+      "threadId": "19b8c8df8445fbd2",
+      "url": "https://mail.google.com/mail/u/0/#inbox/19b8c8df8445fbd2"
     },
     {
-      "id": "2",
-      "from": "Priya Sharma",
-      "subject": "Re: Delivery SLA Changes - Action Required",
-      "snippet": "Following up on the SLA discussion from last week. We need your sign-off on...",
-      "receivedAt": "2026-03-21T09:15:00+05:30",
-      "threadId": "t2"
+      "id": "19d198704622787d",
+      "from": "Komal Rathee",
+      "subject": "Fwd: Thank You for Your Support and Understanding",
+      "snippet": "Candidate Sukhvinder Singh has declined the GoKwik offer with joining date 25th March. Not responding to calls.",
+      "receivedAt": "2026-03-23T07:01:33+05:30",
+      "threadId": "19d198704622787d",
+      "url": "https://mail.google.com/mail/u/0/#inbox/19d198704622787d"
     },
     {
-      "id": "3",
-      "from": "Amit Patel",
-      "subject": "Partnership Proposal - QuickCommerce Integration",
-      "snippet": "I'd like to discuss a potential integration between our platforms...",
-      "receivedAt": "2026-03-22T11:00:00+05:30",
-      "threadId": "t3"
+      "id": "19d1912f00aad16d",
+      "from": "Himani Sharma",
+      "subject": "Re: Request to Activate RCS for Beardo",
+      "snippet": "Beardo needs to modify Contact Us page (this week), then we can proceed with RCS onboarding.",
+      "receivedAt": "2026-03-23T05:02:31+05:30",
+      "threadId": "19c652303e932c91",
+      "url": "https://mail.google.com/mail/u/0/#inbox/19c652303e932c91"
     },
     {
-      "id": "4",
-      "from": "Sarah Chen",
-      "subject": "Re: Campaign Performance Report - March Week 3",
-      "snippet": "The numbers are looking better this week. Can you share your thoughts on...",
-      "receivedAt": "2026-03-22T16:45:00+05:30",
-      "threadId": "t4"
+      "id": "19d195f618a41404",
+      "from": "Sumit Bilochi (SAADAA)",
+      "subject": "Re: Issues with KwikShip",
+      "snippet": "Agreement is still pending. A few points of concern were shared on 6th March.",
+      "receivedAt": "2026-03-23T06:26:03+05:30",
+      "threadId": "19d0504358dc1e10",
+      "url": "https://mail.google.com/mail/u/0/#inbox/19d0504358dc1e10"
+    },
+    {
+      "id": "19d1954cb4adab4d",
+      "from": "Debanshu Sinha (GoSwift)",
+      "subject": "Swift | Integration List",
+      "snippet": "As discussed, please find our existing integrations list. All available as part of Zerox platform.",
+      "receivedAt": "2026-03-23T06:14:27+05:30",
+      "threadId": "19d1954cb4adab4d",
+      "url": "https://mail.google.com/mail/u/0/#inbox/19d1954cb4adab4d"
     }
   ],
   "actionItems": [
     {
-      "id": "a1",
-      "text": "Review and approve Q1 KwikEngage campaign budget",
-      "source": "Email from Rajesh Kumar",
+      "id": "ai-001",
+      "text": "Respond to TrustSignal on ~42L outstanding payment - clarify credit note reason or approve payment release. They want a Google Meet call.",
+      "source": "Email: Prashant Kumar (TrustSignal)",
       "sourceType": "email",
-      "date": "2026-03-20",
+      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19b8c8df8445fbd2",
+      "date": "2026-03-23",
       "done": false
     },
     {
-      "id": "a2",
-      "text": "Sign off on new delivery SLA thresholds",
-      "source": "Email from Priya Sharma",
+      "id": "ai-002",
+      "text": "Decide next steps for PM backfill - candidate Sukhvinder Singh declined offer (joining was 25 Mar)",
+      "source": "Email: Komal Rathee",
       "sourceType": "email",
-      "date": "2026-03-21",
+      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19d198704622787d",
+      "date": "2026-03-23",
       "done": false
     },
     {
-      "id": "a3",
-      "text": "Share agenda for Monday engineering sync",
-      "source": "#kwikengage-engineering Slack thread",
+      "id": "ai-003",
+      "text": "Follow up on Beardo RCS onboarding - they need to update Contact Us page this week",
+      "source": "Email: Himani Sharma",
+      "sourceType": "email",
+      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19c652303e932c91",
+      "date": "2026-03-23",
+      "done": false
+    },
+    {
+      "id": "ai-004",
+      "text": "Close SAADAA KwikShip agreement - pending since 6 Mar, follow up with Harshita/Mrigank",
+      "source": "Email: Sumit Bilochi (SAADAA)",
+      "sourceType": "email",
+      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19d0504358dc1e10",
+      "date": "2026-03-23",
+      "done": false
+    },
+    {
+      "id": "ai-005",
+      "text": "Review GoSwift/Zerox integration list and respond with decision",
+      "source": "Email: Debanshu Sinha (GoSwift)",
+      "sourceType": "email",
+      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19d1954cb4adab4d",
+      "date": "2026-03-23",
+      "done": false
+    },
+    {
+      "id": "ai-006",
+      "text": "Approve Tellephant AWS Access for Webhook Logs (requested by Mrigank)",
+      "source": "Slack DM: Mrigank Srivastava",
       "sourceType": "slack",
-      "date": "2026-03-22",
-      "done": false
-    },
-    {
-      "id": "a4",
-      "text": "Update campaign analytics dashboard wireframes",
-      "source": "ENGAGE-142",
-      "sourceType": "jira",
-      "date": "2026-03-19",
+      "sourceUrl": "https://app.slack.com/client/T01U48WNDDW/D09U7R4HKLY",
+      "date": "2026-03-23",
       "done": false
     }
   ],
   "jiraTickets": [
     {
-      "key": "ENGAGE-142",
-      "summary": "Campaign Analytics Revamp - Phase 1",
-      "status": "In Progress",
-      "priority": "High",
-      "dueDate": "2026-03-20",
-      "url": "https://gokwik.atlassian.net/browse/ENGAGE-142",
-      "type": "Story"
+      "key": "TO-66181",
+      "summary": "BestLifeNaturals - Refund Process Initiation",
+      "status": "New",
+      "priority": "Highest",
+      "dueDate": null,
+      "url": "https://gokwik.atlassian.net/browse/TO-66181",
+      "type": "Finance Approval"
     },
     {
-      "key": "ENGAGE-155",
-      "summary": "Merchant onboarding flow optimization",
-      "status": "In Progress",
-      "priority": "High",
-      "dueDate": "2026-03-28",
-      "url": "https://gokwik.atlassian.net/browse/ENGAGE-155",
-      "type": "Story"
+      "key": "TO-61055",
+      "summary": "Mobilla - credit note for sub account",
+      "status": "New",
+      "priority": "Highest",
+      "dueDate": null,
+      "url": "https://gokwik.atlassian.net/browse/TO-61055",
+      "type": "Finance Approval"
     },
     {
-      "key": "SHIP-089",
-      "summary": "RTO prediction model v2 integration",
-      "status": "To Do",
-      "priority": "Medium",
-      "dueDate": "2026-04-05",
-      "url": "https://gokwik.atlassian.net/browse/SHIP-089",
-      "type": "Task"
+      "key": "TO-59795",
+      "summary": "Balance adjustment for Shuperb due to incorrect pricing",
+      "status": "New",
+      "priority": "Highest",
+      "dueDate": null,
+      "url": "https://gokwik.atlassian.net/browse/TO-59795",
+      "type": "Finance Approval"
     },
     {
-      "key": "ENGAGE-160",
-      "summary": "Fix WhatsApp template approval delays",
-      "status": "Blocked",
-      "priority": "Critical",
-      "dueDate": "2026-03-25",
-      "url": "https://gokwik.atlassian.net/browse/ENGAGE-160",
-      "type": "Bug"
+      "key": "TO-58091",
+      "summary": "Request for Waiver of September Bill - Buddha Naturals",
+      "status": "New",
+      "priority": "Highest",
+      "dueDate": null,
+      "url": "https://gokwik.atlassian.net/browse/TO-58091",
+      "type": "Finance Approval"
+    },
+    {
+      "key": "TO-55494",
+      "summary": "Blanket Approval for default pricing in UK market",
+      "status": "New",
+      "priority": "Highest",
+      "dueDate": null,
+      "url": "https://gokwik.atlassian.net/browse/TO-55494",
+      "type": "Finance Approval"
+    },
+    {
+      "key": "TO-29728",
+      "summary": "New WhatsApp Pricing plan - from Apr'25",
+      "status": "New",
+      "priority": "Highest",
+      "dueDate": null,
+      "url": "https://gokwik.atlassian.net/browse/TO-29728",
+      "type": "Feature Request"
     }
   ],
   "slackAttention": [
     {
       "id": "s1",
       "type": "dm",
-      "from": "Aman Gupta",
+      "from": "Mrigank Srivastava",
       "channel": "DM",
-      "preview": "Hey Vijay, quick question about the KwikShip pricing model changes...",
-      "timestamp": "2026-03-22T22:10:00+05:30"
+      "preview": "Can you please approve this Request - Tellephant AWS Access for Webhook Logs",
+      "timestamp": "2026-03-23T10:07:01+05:30",
+      "url": "https://app.slack.com/client/T01U48WNDDW/D09U7R4HKLY"
     },
     {
       "id": "s2",
-      "type": "mention",
-      "from": "Rajesh Kumar",
-      "channel": "#kwikengage-planning",
-      "preview": "@vijay can you confirm the budget numbers before EOD?",
-      "timestamp": "2026-03-22T13:30:00+05:30"
+      "type": "dm",
+      "from": "Vardhan Jain",
+      "channel": "DM",
+      "preview": "let me know if this is working",
+      "timestamp": "2026-03-23T13:04:47+05:30",
+      "url": "https://app.slack.com/client/T01U48WNDDW/D03A8P6FK47"
     },
     {
       "id": "s3",
-      "type": "thread",
-      "from": "Neha Verma",
-      "channel": "#product-updates",
-      "preview": "Updated the PRD based on your feedback. 3 new comments to review.",
-      "timestamp": "2026-03-22T17:45:00+05:30"
+      "type": "dm",
+      "from": "Tripti",
+      "channel": "DM",
+      "preview": "I am refining it further, adding more features also. Hopefully in the newer version it would be clearer",
+      "timestamp": "2026-03-23T13:26:31+05:30",
+      "url": "https://app.slack.com/client/T01U48WNDDW/D08EC79AGAD"
+    },
+    {
+      "id": "s4",
+      "type": "dm",
+      "from": "Apoorv Abhishek",
+      "channel": "DM",
+      "preview": "Hey, have calls till 430",
+      "timestamp": "2026-03-23T14:23:08+05:30",
+      "url": "https://app.slack.com/client/T01U48WNDDW/D0A4Q7D92UQ"
+    },
+    {
+      "id": "s5",
+      "type": "dm",
+      "from": "Atul Chaudhary",
+      "channel": "DM",
+      "preview": "let me check with them",
+      "timestamp": "2026-03-23T14:18:13+05:30",
+      "url": "https://app.slack.com/client/T01U48WNDDW/D05C8P1RCHW"
+    },
+    {
+      "id": "s6",
+      "type": "dm",
+      "from": "Vivek Premnath",
+      "channel": "DM",
+      "preview": "can do it together if you want",
+      "timestamp": "2026-03-20T13:37:44+05:30",
+      "url": "https://app.slack.com/client/T01U48WNDDW/D083X4PDUQ3"
     }
   ]
 }

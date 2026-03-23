@@ -56,9 +56,12 @@ export default function SlackAttention({ items }: { items: SlackItem[] }) {
           {items.map((item) => {
             const typeInfo = typeLabels[item.type];
             return (
-              <div
+              <a
                 key={item.id}
-                className="bg-white dark:bg-gray-800 rounded-lg p-4 shadow-sm"
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block bg-white dark:bg-gray-800 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow cursor-pointer"
               >
                 <div className="flex items-center justify-between mb-1">
                   <div className="flex items-center gap-2">
@@ -83,7 +86,7 @@ export default function SlackAttention({ items }: { items: SlackItem[] }) {
                 <p className="text-sm text-gray-600 dark:text-gray-400 line-clamp-2">
                   {item.preview}
                 </p>
-              </div>
+              </a>
             );
           })}
         </div>

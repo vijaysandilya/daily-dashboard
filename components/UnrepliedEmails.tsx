@@ -42,9 +42,12 @@ export default function UnrepliedEmails({
     <Section title="Unreplied Emails" icon="envelope" count={emails.length}>
       <div className="space-y-3">
         {emails.map((email) => (
-          <div
+          <a
             key={email.id}
-            className={`border-l-4 ${urgencyColor(email.receivedAt)} bg-white dark:bg-gray-800 rounded-lg p-4 shadow-sm`}
+            href={email.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`block border-l-4 ${urgencyColor(email.receivedAt)} bg-white dark:bg-gray-800 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow cursor-pointer`}
           >
             <div className="flex justify-between items-start mb-1">
               <span className="font-medium text-gray-900 dark:text-white text-sm">
@@ -60,7 +63,7 @@ export default function UnrepliedEmails({
             <p className="text-xs text-gray-500 dark:text-gray-400 line-clamp-1">
               {email.snippet}
             </p>
-          </div>
+          </a>
         ))}
       </div>
     </Section>

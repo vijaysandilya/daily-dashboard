@@ -31,9 +31,12 @@ export default function ActionItems({ items }: { items: ActionItem[] }) {
       </div>
       <div className="space-y-3">
         {pending.map((item) => (
-          <div
+          <a
             key={item.id}
-            className="flex items-start gap-3 bg-white dark:bg-gray-800 rounded-lg p-4 shadow-sm"
+            href={item.sourceUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-start gap-3 bg-white dark:bg-gray-800 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow cursor-pointer"
           >
             <div className="mt-0.5 w-4 h-4 rounded border-2 border-gray-300 dark:border-gray-600 shrink-0" />
             <div className="flex-1 min-w-0">
@@ -44,7 +47,7 @@ export default function ActionItems({ items }: { items: ActionItem[] }) {
                 {sourceIcon[item.sourceType]} {item.source} &middot; {item.date}
               </p>
             </div>
-          </div>
+          </a>
         ))}
         {done.length > 0 && (
           <details className="mt-2">

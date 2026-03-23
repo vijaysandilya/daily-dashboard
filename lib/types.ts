@@ -19,6 +19,7 @@ export interface UnrepliedEmail {
   snippet: string;
   receivedAt: string;
   threadId: string;
+  url: string;
 }
 
 export interface ActionItem {
@@ -26,6 +27,7 @@ export interface ActionItem {
   text: string;
   source: string;
   sourceType: "email" | "slack" | "jira";
+  sourceUrl: string;
   date: string;
   done: boolean;
 }
@@ -47,6 +49,7 @@ export interface SlackItem {
   channel: string;
   preview: string;
   timestamp: string;
+  url: string;
 }
 
 export interface GoalsData {
