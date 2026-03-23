@@ -1,7 +1,7 @@
 {
-  "lastSyncTime": null,
-  "gmailLastMessageId": null,
-  "jiraLastUpdated": null,
-  "slackLastTimestamp": null,
-  "isBootstrap": true
+  "lastSyncTime": "2026-03-23T17:30:00+05:30",
+  "gmailLastMessageId": "19d19d07ea9a0298",
+  "jiraLastUpdated": "2026-03-23T17:30:00+05:30",
+  "slackLastTimestamp": "1711191991",
+  "isBootstrap": false
 }
