@@ -83,7 +83,7 @@ export default function RefreshBadge({
       </div>
       {isStale && (
         <span className="text-[10px] bg-amber-100 dark:bg-amber-900/50 text-amber-700 dark:text-amber-300 px-2 py-0.5 rounded-full">
-          Say &quot;refresh my dashboard&quot; in Claude
+          Stale &mdash; next refresh soon
         </span>
       )}
     </div>
