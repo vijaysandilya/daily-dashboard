@@ -1,341 +1,270 @@
 {
-  "lastRefreshed": "2026-03-24T17:00:00+05:30",
+  "lastRefreshed": "2026-04-06T18:00:00+05:30",
   "aiBriefing": {
-    "summary": "After reading 50 Gmail threads and 7 Jira tickets with 22 comments: 2 emails are blocked on YOU (TrustSignal invoice approval + Meta badge risk follow-up). 3 Jira finance approvals need action (Millet Mania CN, pricing recovery, Emcure CN). Slack has 10 mentions including Mahima needing a CSM interviewer substitute and Prashant discussing Appbrew. BeYours is sharing Limechat pricing to force a discount — your call on whether to match.",
+    "summary": "After reading 30 Gmail threads and 7 Jira tickets (23 comments): your JFM QBR deck is due to Vivek Premnath by Wed/Thu (8-9 Apr) — this is the top deadline. Nidhi Shah flagged 4 open vendor billing disputes from your new payment process that need closure. Jaipur Fabric is a churn risk (SMS broken, no AM for 2 months). Only 1 Jira ticket needs you (pricing recovery plan, 24 days stale) — the other 6 you already approved. Tanmay shared a KwikShip feature priority list and Mrigank needs help with his goals.",
     "highlights": [
-      "🔴 APPROVE: TrustSignal Feb'26 invoice — Nidhi Shah has reconciled and explicitly says 'Vijay can approve for payment'. Direct blocker.",
-      "🔴 FOLLOW UP: Meta Business Partner badge at risk (2nd notice) — you looped in Sid & Pushkar yesterday but no reply yet. Probation clock ticking.",
-      "🟡 HIRING: Mahima Jain needs an alternate person for CSM Mumbai resume shortlisting (Heli unavailable till Apr 2). No response from you.",
-      "🟡 PRICING: BeYours (Nilesh) sharing Limechat rates (₹7.5K/month, marketing @0.87) to pressure a discount. Decide: match or hold firm?",
-      "🟡 DOCS GAP: Adit flagged KwikChat Confluence docs missing for 5 recurring support themes. Assign owners.",
-      "🟡 FINANCE: 3 Jira tickets need approval — Millet Mania CN (₹3,625), pricing recovery plan, Emcure CN (₹1.65L)."
+      "🔴 DEADLINE: QBR deck due to Vivek Premnath by Wed 8 Apr (Thu 9 Apr latest). Biz QBR rescheduled to 15 Apr, now Q&A-only — deck must be shared for async review.",
+      "🟡 VENDOR BILLING: Nidhi flagged 4 open disputes — RML WA variance, WA conversation diff, SMS/Goexcelsior invoices, Chatbot AI rate. Also need to name Tech SPOC and CSM SPOC.",
+      "🟡 CHURN RISK: Jaipur Fabric (Praveen Kaushik, CMO) — SMS campaigns broken, no account manager for 2 months. Explicitly threatening to leave.",
+      "🟡 KWIKSHIP: Tanmay shared feature priority list (address-to-latlong, NDR address change, shipper selection, EDD for KE). Review and confirm priorities.",
+      "🟡 JIRA: TO-66065 (pricing recovery) — Ruchika waiting 24 days for your input on recovery approach for 5 prepaid merchants.",
+      "🟡 GOALS: Mrigank needs your help finalizing his goals (Shiprocket integration, Custom API, KwikShip Jira sanitisation, NDR experiments, OMS, KwikPass custom merchants)."
     ]
   },
   "unrepliedEmails": [
     {
-      "id": "19d1f37b1b1a01bf",
+      "id": "email-1",
+      "from": "Vivek Premnath",
+      "subject": "🔴 JFM Functional / Biz QBR — Rescheduled to 15 Apr",
+      "snippet": "QBR deck due by Wed 8 Apr (Thu 9 Apr latest). Session is now Q&A-only. Must share deck for async review before 15 Apr session.",
+      "receivedAt": "2026-04-06T12:15:25+05:30",
+      "threadId": "19d62b849794b738",
+      "url": "https://mail.google.com/mail/u/0/#inbox/19d62b849794b738"
+    },
+    {
+      "id": "email-2",
       "from": "Nidhi Shah",
-      "subject": "Re: Inv_1687_Goexcelsior (TrustSignal Feb'26)",
-      "snippet": "🔴 APPROVE: Nidhi has reconciled Feb'26 invoice and says 'Vijay can approve for payment'. Direct blocker — review remarks column and approve.",
-      "receivedAt": "2026-03-24T15:10:21+05:30",
-      "threadId": "19cbc6964151702a",
-      "url": "https://mail.google.com/mail/u/0/#inbox/19cbc6964151702a"
+      "subject": "🟡 Re: Process for KwikEngage Vendor Payment — 4 open disputes",
+      "snippet": "4 billing disputes need closure: RML WA variance, WA conversation diff, SMS/Goexcelsior invoices, Chatbot AI rate. Also name Tech SPOC and CSM SPOC.",
+      "receivedAt": "2026-04-02T14:45:16+05:30",
+      "threadId": "19d4d3d9214c3e62",
+      "url": "https://mail.google.com/mail/u/0/#inbox/19d4d3d9214c3e62"
     },
     {
-      "id": "19d1a0bed9e5d9ab",
-      "from": "Meta Business Partners",
-      "subject": "Second Notice: Meta Business Partner badge at risk",
-      "snippet": "🔴 FOLLOW UP: GoKwik WHATSAPP_MBP missed performance 2 months. You forwarded to Sid/Pushkar yesterday — no reply. Need concrete action plan before probation.",
-      "receivedAt": "2026-03-24T02:49:15+05:30",
-      "threadId": "19cfdaad1a8efb44",
-      "url": "https://mail.google.com/mail/u/0/#inbox/19cfdaad1a8efb44"
+      "id": "email-3",
+      "from": "GoKwik Support (Jaipur Fabric)",
+      "subject": "🟡 Ticket #212097 — SMS campaigns failing, churn risk",
+      "snippet": "Praveen Kaushik (CMO) threatening to churn — all SMS campaigns failing, no account manager for 2 months. May need your intervention.",
+      "receivedAt": "2026-04-06T17:47:47+05:30",
+      "threadId": "19d615a248b93810",
+      "url": "https://mail.google.com/mail/u/0/#inbox/19d615a248b93810"
     },
     {
-      "id": "19d1f79dd041d474",
-      "from": "Adit Agarwal (via eida)",
-      "subject": "KwikChat support ticket themes — documentation gap on Confluence",
-      "snippet": "🟡 DOCS: Adit reviewed support tickets and found 5 recurring themes with no Confluence docs (widget integration, onboarding, bot setup, order status). Assign owners.",
-      "receivedAt": "2026-03-24T16:22:51+05:30",
-      "threadId": "19d1f79dd041d474",
-      "url": "https://mail.google.com/mail/u/0/#inbox/19d1f79dd041d474"
-    },
-    {
-      "id": "19d1f69f342f47d6",
-      "from": "Nilesh Karnani (BeYours)",
-      "subject": "Re: BeYours — Final Pricing",
-      "snippet": "🟡 PRICING: Sharing Limechat rates (₹7.5K/month, marketing @0.87, utility @0.12) to negotiate. Old dues also outstanding. Decide: match or hold firm?",
-      "receivedAt": "2026-03-24T16:05:16+05:30",
-      "threadId": "197ac29ce3646ae1",
-      "url": "https://mail.google.com/mail/u/0/#inbox/197ac29ce3646ae1"
-    },
-    {
-      "id": "19d1f8799ba41ffa",
-      "from": "Dipen Sajnani",
-      "subject": "Re: Proforma invoice (Olympic Trophies)",
-      "snippet": "🟡 VENDOR: ₹18K shortfall on invoice (₹102K paid vs ₹120K raised). Dipen chasing Vipin. Ensure resolved.",
-      "receivedAt": "2026-03-24T16:37:41+05:30",
-      "threadId": "19cc1d801753c7d8",
-      "url": "https://mail.google.com/mail/u/0/#inbox/19cc1d801753c7d8"
-    },
-    {
-      "id": "19d18e1e40eb0b15",
-      "from": "Chirag Taneja (CEO)",
-      "subject": "Re: AI Calling Update",
-      "snippet": "🟡 STRATEGY: Chirag asked how you're thinking about AI Calling adoption. You said CSM pitching resumes once product ready. Define a concrete timeline.",
-      "receivedAt": "2026-03-23T08:22:10+05:30",
-      "threadId": "19a5906b0a0bcc9f",
-      "url": "https://mail.google.com/mail/u/0/#inbox/19a5906b0a0bcc9f"
+      "id": "email-4",
+      "from": "Heli Doshi",
+      "subject": "🟡 Saturday Support Discussion @ Wed 8 Apr",
+      "snippet": "Heli scheduled a Saturday Support debrief on Wed 8 Apr (10:30-11am). Awareness item as KwikEngage head.",
+      "receivedAt": "2026-04-06T18:52:44+05:30",
+      "threadId": "19d62f5bc882cd94",
+      "url": "https://mail.google.com/mail/u/0/#inbox/19d62f5bc882cd94"
     }
   ],
   "actionItems": [
     {
-      "id": "ai-001",
-      "text": "🔴 Approve TrustSignal Feb'26 invoice payment — Nidhi has reconciliation, waiting on your explicit approval",
-      "source": "Email: TrustSignal/Goexcelsior",
+      "id": "ai-1",
+      "text": "🔴 Share JFM QBR deck with Vivek Premnath by Wed 8 Apr — Biz QBR rescheduled to 15 Apr, Q&A-only, deck needed for async review",
+      "source": "QBR rescheduling — Vivek Premnath",
       "sourceType": "email",
-      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19cbc6964151702a",
-      "date": "2026-03-24",
+      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19d62b849794b738",
+      "date": "2026-04-06",
       "done": false
     },
     {
-      "id": "ai-002",
-      "text": "🔴 Follow up with Sid & Pushkar on Meta badge risk — no reply to your forward yesterday",
-      "source": "Email: Meta Business Partner badge",
+      "id": "ai-2",
+      "text": "🟡 Close 4 vendor billing disputes + name Tech SPOC and CSM SPOC for new payment process",
+      "source": "KwikEngage Vendor Payment — Nidhi Shah",
       "sourceType": "email",
-      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19cfdaad1a8efb44",
-      "date": "2026-03-24",
+      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19d4d3d9214c3e62",
+      "date": "2026-04-02",
       "done": false
     },
     {
-      "id": "ai-003",
-      "text": "🟡 Respond to Adit's KwikChat documentation gap report — assign owners for 5 Confluence doc themes",
-      "source": "Email: KwikChat support themes",
+      "id": "ai-3",
+      "text": "🟡 Intervene on Jaipur Fabric — SMS broken, no AM for 2 months, CMO threatening churn",
+      "source": "Ticket #212097 — Jaipur Fabric",
       "sourceType": "email",
-      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19d1f79dd041d474",
-      "date": "2026-03-24",
+      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19d615a248b93810",
+      "date": "2026-04-06",
       "done": false
     },
     {
-      "id": "ai-004",
-      "text": "🟡 Decide on BeYours pricing — match Limechat (₹7.5K/month) or hold firm? Also resolve old dues",
-      "source": "Email: BeYours Final Pricing",
+      "id": "ai-4",
+      "text": "🟡 Confirm KwikShip thumbnail mismatch Jira was created by Harshita (asked 31 Mar, no confirmation)",
+      "source": "KwikShip Thumbnail Mismatch — Arata",
       "sourceType": "email",
-      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/197ac29ce3646ae1",
-      "date": "2026-03-24",
+      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19d43b388c6394fb",
+      "date": "2026-03-31",
       "done": false
     },
     {
-      "id": "ai-005",
-      "text": "🟡 Share AI Calling adoption plan with Chirag — define CSM pitching timeline",
-      "source": "Email: AI Calling Update",
+      "id": "ai-5",
+      "text": "🟡 Confirm KwikShip template audit is complete and billing correct (Aseem asked today)",
+      "source": "KwikShip Template Misclassification",
       "sourceType": "email",
-      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19a5906b0a0bcc9f",
-      "date": "2026-03-24",
+      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19d4955a7260e78e",
+      "date": "2026-04-06",
       "done": false
     },
     {
-      "id": "ai-006",
-      "text": "🟡 Provide alternate person for CSM Mumbai resume shortlisting (Heli unavailable till Apr 2)",
-      "source": "Slack DM: Mahima Jain",
+      "id": "ai-6",
+      "text": "🟡 Help Mrigank finalize his goals (Shiprocket, Custom API, KwikShip Jira sanitisation, NDR, OMS, KwikPass)",
+      "source": "Slack DM — Mrigank Srivastava",
       "sourceType": "slack",
-      "sourceUrl": "https://app.slack.com/client/T01U48WNDDW/D09QRR4ELDS",
-      "date": "2026-03-24",
+      "sourceUrl": "https://app.slack.com/client/T01U48WNDDW/D09U7R4HKLY",
+      "date": "2026-04-04",
       "done": false
     }
   ],
   "followUps": [
     {
-      "id": "fu-001",
-      "text": "Asked Ruchika to audit old DLs and set auto-forward — check if done",
+      "id": "fu-1",
+      "text": "Approved KE Shopify App Rating incentive plan for AMJ'26 — verify plan is running",
+      "to": "Ruchika Nagpal / Nitin Khera",
+      "source": "Email: Shopify App Rating Incentive",
+      "sourceType": "email",
+      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19b8cecba552fb16",
+      "date": "2026-04-03",
+      "status": "pending"
+    },
+    {
+      "id": "fu-2",
+      "text": "Asked Ruchika to sort KwikShip template misclassification — Aseem asked for full audit today",
       "to": "Ruchika Nagpal",
-      "source": "Email: KwikPass routing issue",
+      "source": "Email: Template Misclassification",
       "sourceType": "email",
-      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19ce2a9a3addf17d",
-      "date": "2026-03-23",
+      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19d4955a7260e78e",
+      "date": "2026-04-01",
       "status": "pending"
     },
     {
-      "id": "fu-002",
-      "text": "Asked Raoul to discuss Trunativ tracking failure in sync — confirm resolution",
-      "to": "Raoul Edward",
-      "source": "Email: Tracking Update Failure",
+      "id": "fu-3",
+      "text": "Sent vendor payment process — Nidhi replied with 4 open disputes. No reply from you yet.",
+      "to": "Nidhi Shah / Vicky Gandhi",
+      "source": "Email: Vendor Payment Process",
       "sourceType": "email",
-      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19cfa199f2e0c863",
-      "date": "2026-03-23",
+      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19d4d3d9214c3e62",
+      "date": "2026-04-02",
       "status": "pending"
     },
     {
-      "id": "fu-003",
-      "text": "Asked 'Is this sorted?' — Medchain billing dispute",
-      "to": "Akash Rohilla / Vicky Gandhi / Ruchika",
-      "source": "Email: Pending Payments — Medchain",
+      "id": "fu-4",
+      "text": "Asked Harshita to create Jira Sev-4 for thumbnail mismatch (Arata) — no confirmation",
+      "to": "Harshita Tanwar",
+      "source": "Email: KwikShip Thumbnail Mismatch",
       "sourceType": "email",
-      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19ce5fe43e68e17c",
-      "date": "2026-03-23",
+      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19d43b388c6394fb",
+      "date": "2026-03-31",
       "status": "pending"
     },
     {
-      "id": "fu-004",
-      "text": "Escalated Adil Qadri meeting to Sherman — no response yet",
-      "to": "Sherman Rodrigues",
-      "source": "Email: Adil Qadri Meeting",
+      "id": "fu-5",
+      "text": "Forwarded WhatsApp March product updates to MS/Ops and Chirag — confirm team reviewed",
+      "to": "KwikChat MS / Pushkar / Chirag",
+      "source": "Email: Product Updates March 2026",
       "sourceType": "email",
-      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19cc2e4b1277e03e",
-      "date": "2026-03-23",
+      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19d44b853b221b09",
+      "date": "2026-03-31",
       "status": "pending"
     },
     {
-      "id": "fu-005",
-      "text": "Asked '@Shraddha closed?' on Saadaa Jan-26 invoice discrepancy — no reply",
-      "to": "Shraddha Sahni",
-      "source": "Email: Jan-26 Invoice Discrepancy",
-      "sourceType": "email",
-      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19ce03e4520f2485",
-      "date": "2026-03-23",
-      "status": "pending"
-    },
-    {
-      "id": "fu-006",
-      "text": "Asked 'Have we reverted?' — Instagram Posts Invalid Date bug",
-      "to": "Ruchika Nagpal",
-      "source": "Email: Instagram Invalid Date",
-      "sourceType": "email",
-      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19cf4db57de05f29",
-      "date": "2026-03-23",
-      "status": "pending"
-    },
-    {
-      "id": "fu-007",
-      "text": "Forwarded PM referral (Yash Kumar) to Akshat Jain — should process",
-      "to": "Akshat Jain",
-      "source": "Email: Referral for PM Role",
-      "sourceType": "email",
-      "sourceUrl": "https://mail.google.com/mail/u/0/#inbox/19d1b269076deb48",
-      "date": "2026-03-23",
-      "status": "pending"
-    },
-    {
-      "id": "fu-slack-001",
-      "text": "Committed 'will do' to Vivek Premnath — check what was promised",
-      "to": "Vivek Premnath",
-      "source": "Slack DM",
+      "id": "fu-slack-1",
+      "text": "Committed to share Jira tickets with all details to AI SDLC group",
+      "to": "Vivek Bajpai / Akshay Jain / Tanmay / Ishita / Anil",
+      "source": "Slack: AI SDLC Group DM",
       "sourceType": "slack",
-      "sourceUrl": "https://app.slack.com/client/T01U48WNDDW/D083X4PDUQ3",
-      "date": "2026-03-20",
+      "sourceUrl": "https://app.slack.com/client/T01U48WNDDW/C0AMXPX756V",
+      "date": "2026-03-31",
       "status": "pending"
     },
     {
-      "id": "fu-slack-002",
-      "text": "Committed 'on it' to Ashi Khare — check what was promised",
-      "to": "Ashi Khare",
-      "source": "Slack DM",
+      "id": "fu-slack-2",
+      "text": "Committed: Product team (Tanmay and me) will share 10 no-dependency tasks by Monday",
+      "to": "AI SDLC Group",
+      "source": "Slack: AI SDLC Group DM",
       "sourceType": "slack",
-      "sourceUrl": "https://app.slack.com/client/T01U48WNDDW/D09SEEQ3S0J",
-      "date": "2026-03-20",
+      "sourceUrl": "https://app.slack.com/client/T01U48WNDDW/C0AMXPX756V",
+      "date": "2026-03-31",
       "status": "pending"
     }
   ],
-  "financeApprovals": [
-    {
-      "key": "KWF-1042",
-      "summary": "Millet Mania — CN for utility pricing discrepancy",
-      "amount": "₹3,625",
-      "requestedBy": "Team (tagged @Vijay)",
-      "whatToApprove": "Credit note for utility conversations billed at ₹0.15 instead of agreed ₹0.12 for Jan-Feb (1.2L convos total). Difference = ₹3,625.",
-      "createdDate": "2026-03-24",
-      "daysPending": 0,
-      "priority": "Medium",
-      "url": "https://gokwik.atlassian.net/browse/KWF-1042"
-    },
+  "financeApprovals": [],
+  "financeNeedsClarification": [],
+  "jiraTickets": [
     {
       "key": "TO-66065",
       "summary": "Recovery — pricing bug (5 prepaid merchants)",
-      "amount": "See spreadsheet",
-      "requestedBy": "Ruchika Nagpal",
-      "whatToApprove": "Approve recovery approach: deduct from wallet in batches for prepaid merchants undercharged due to marketing pricing tech bug.",
-      "createdDate": "2026-03-13",
-      "daysPending": 11,
+      "status": "New",
       "priority": "Medium",
-      "url": "https://gokwik.atlassian.net/browse/TO-66065"
-    },
-    {
-      "key": "KWF-998",
-      "summary": "Arth & Galact (Emcure) — CN for inactive months",
-      "amount": "₹1,65,200",
-      "requestedBy": "Akash Rohilla",
-      "whatToApprove": "CN for 8 fixed-fee invoices raised while merchant was inactive Oct'25–Jan'26. You approved 'Ok' but Ravi also commented — ticket still open, finance needs to execute CN.",
-      "createdDate": "2026-02-24",
-      "daysPending": 28,
-      "priority": "Medium",
-      "url": "https://gokwik.atlassian.net/browse/KWF-998"
+      "dueDate": null,
+      "url": "https://gokwik.atlassian.net/browse/TO-66065",
+      "type": "Finance/Ops"
     }
   ],
-  "financeNeedsClarification": [],
-  "jiraTickets": [],
   "slackAttention": [
     {
-      "id": "s-001",
+      "id": "s-1",
       "type": "dm",
-      "from": "Mahima Jain",
+      "from": "Tanmay Shrivastava",
       "channel": "DM",
-      "preview": "Since Heli is not available till April 2nd, can you provide an alternate person for CSM Mumbai resume shortlisting?",
-      "timestamp": "2026-03-24T16:05:03+05:30",
-      "url": "https://app.slack.com/client/T01U48WNDDW/D09QRR4ELDS"
+      "preview": "KwikShip feature list: address-to-latlong, NDR address/phone change, shipper selection, merchant WA query mgmt, EDD for KE automations",
+      "timestamp": "2026-04-06T11:31:00+05:30",
+      "url": "https://app.slack.com/client/T01U48WNDDW/D07EZDX8F1T"
     },
     {
-      "id": "s-002",
+      "id": "s-2",
       "type": "dm",
-      "from": "Hardik Dankhara",
+      "from": "Mrigank Srivastava",
       "channel": "DM",
-      "preview": "Appbrew update: Android + iOS testing ongoing. QA flagged some issues, looking into them.",
-      "timestamp": "2026-03-24T11:45:29+05:30",
-      "url": "https://app.slack.com/client/T01U48WNDDW/D024A11BYKA"
+      "preview": "Need help with goals: Shiprocket integration, Custom API KE, KwikShip Jira sanitisation, NDR experiments, OMS, KwikPass custom merchants",
+      "timestamp": "2026-04-04T15:44:00+05:30",
+      "url": "https://app.slack.com/client/T01U48WNDDW/D09U7R4HKLY"
     },
     {
-      "id": "s-003",
+      "id": "s-3",
+      "type": "mention",
+      "from": "Tanmay Shrivastava",
+      "channel": "AI SDLC Group DM",
+      "preview": "CC @Vijay — 13 no-external-dependency tasks shared with Akshay/Anil [Google Sheets link]",
+      "timestamp": "2026-04-05T08:49:00+05:30",
+      "url": "https://app.slack.com/client/T01U48WNDDW/C0AMXPX756V"
+    },
+    {
+      "id": "s-4",
       "type": "mention",
       "from": "Prashant Sharma",
-      "channel": "Group DM (Vijay, Sid, Prashant)",
-      "preview": "Appbrew discussion — Android/iOS? Maker brew? Let's get on a call.",
-      "timestamp": "2026-03-24T16:24:13+05:30",
+      "channel": "VAPT Group DM",
+      "preview": "VAPT clearance received. Mrigank will share sharable report.",
+      "timestamp": "2026-04-05T13:56:00+05:30",
       "url": "https://app.slack.com/client/T01U48WNDDW/C09BCS6D0M7"
     },
     {
-      "id": "s-004",
+      "id": "s-5",
       "type": "mention",
-      "from": "Tripti",
-      "channel": "KwikEngage Content Team",
-      "preview": "Will look at Rasayanam comments and make changes to the merchant video script.",
-      "timestamp": "2026-03-24T13:18:42+05:30",
-      "url": "https://app.slack.com/client/T01U48WNDDW/C0AL5L4SL3A"
+      "from": "Dhwani Jain",
+      "channel": "AS IT IS PoC Group DM",
+      "preview": "Will let you know by tomorrow morning (re: product selection for recommendations PoC)",
+      "timestamp": "2026-04-04T14:57:00+05:30",
+      "url": "https://app.slack.com/client/T01U48WNDDW/C0AMXPX756V"
     },
     {
-      "id": "s-005",
-      "type": "mention",
-      "from": "Himanshi Pahuja",
-      "channel": "KwikEngage Content Team",
-      "preview": "Changes noted in merchant videos sheet; videographer will be booked accordingly.",
-      "timestamp": "2026-03-24T12:29:08+05:30",
-      "url": "https://app.slack.com/client/T01U48WNDDW/C0AL5L4SL3A"
-    },
-    {
-      "id": "s-006",
+      "id": "s-6",
       "type": "dm",
-      "from": "Ishita",
+      "from": "Shivam Sharan",
       "channel": "DM",
-      "preview": "On call / 5 min",
-      "timestamp": "2026-03-24T12:46:16+05:30",
-      "url": "https://app.slack.com/client/T01U48WNDDW/D07MTEEUJU8"
+      "preview": "Thik hai?",
+      "timestamp": "2026-04-05T15:31:00+05:30",
+      "url": "https://app.slack.com/client/T01U48WNDDW/D09P7B260P9"
     },
     {
-      "id": "s-007",
+      "id": "s-7",
       "type": "dm",
-      "from": "Siddhartha Bahl",
+      "from": "Akash Deep Goel",
       "channel": "DM",
-      "preview": "Sure, tu bata de kab possible hoga",
-      "timestamp": "2026-03-23T18:45:36+05:30",
-      "url": "https://app.slack.com/client/T01U48WNDDW/D03M7JBM3SA"
-    },
-    {
-      "id": "s-008",
-      "type": "dm",
-      "from": "Apoorv Abhishek",
-      "channel": "DM",
-      "preview": "Hey Vijay joining?",
-      "timestamp": "2026-03-23T18:38:23+05:30",
-      "url": "https://app.slack.com/client/T01U48WNDDW/D0A4Q7D92UQ"
+      "preview": "Meeting? [Google Meet link]",
+      "timestamp": "2026-04-04T06:43:00+05:30",
+      "url": "https://app.slack.com/client/T01U48WNDDW/D06NDR8351D"
     }
   ],
   "pullStats": {
-    "gmailSearched": 50,
-    "gmailUnreplied": 6,
-    "gmailTranscriptsRead": 14,
+    "gmailSearched": 30,
+    "gmailUnreplied": 4,
+    "gmailTranscriptsRead": 9,
     "jiraTicketsChecked": 7,
-    "jiraCommentsRead": 22,
-    "jiraActive": 3,
-    "slackChannelsScanned": 7,
-    "slackDmsChecked": 8,
-    "slackMentionsFound": 10,
-    "followUpsExtracted": 9
+    "jiraCommentsRead": 23,
+    "jiraActive": 1,
+    "slackChannelsScanned": 6,
+    "slackDmsChecked": 9,
+    "slackMentionsFound": 15,
+    "followUpsExtracted": 7
   }
 }
