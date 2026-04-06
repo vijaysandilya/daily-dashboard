@@ -5,6 +5,7 @@ import AiBriefing from "@/components/AiBriefing";
 import UnrepliedEmails from "@/components/UnrepliedEmails";
 import ActionItems from "@/components/ActionItems";
 import FollowUps from "@/components/FollowUps";
+import PeopleWaiting from "@/components/PeopleWaiting";
 import FinanceApprovals from "@/components/FinanceApprovals";
 import JiraBoard from "@/components/JiraBoard";
 import SlackAttention from "@/components/SlackAttention";
@@ -39,6 +40,8 @@ export default function Home() {
 
       <main className="max-w-4xl mx-auto px-4 sm:px-6 py-8 space-y-6">
         <AiBriefing data={data.aiBriefing} />
+
+        <PeopleWaiting people={data.peopleWaiting || []} />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <UnrepliedEmails emails={data.unrepliedEmails} />

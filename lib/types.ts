@@ -1,6 +1,7 @@
 export interface DashboardData {
   lastRefreshed: string;
   aiBriefing: AiBriefing;
+  peopleWaiting: PersonWaiting[];
   unrepliedEmails: UnrepliedEmail[];
   actionItems: ActionItem[];
   followUps: FollowUp[];
@@ -9,6 +10,15 @@ export interface DashboardData {
   jiraTickets: JiraTicket[];
   slackAttention: SlackItem[];
   pullStats: PullStats;
+}
+
+export interface PersonWaiting {
+  name: string;
+  waitDays: number;
+  channels: string[];
+  need: string;
+  urgency: "high" | "medium" | "low";
+  url: string;
 }
 
 export interface FinanceApproval {

@@ -82,6 +82,37 @@
         {"id": "C0AJR3RLF34", "name": "giva-kwikengage"},
         {"id": "C08K0LQ8656", "name": "frido-kwikengage"}
       ]
+    },
+    "strategy_ai": {
+      "label": "Strategy/AI (Audit-discovered)",
+      "channels": [
+        {"id": "GOKWIK_MCP", "name": "gokwik-mcp-universe"},
+        {"id": "KIRA_AI", "name": "kira-ai-tool-feedback"},
+        {"id": "GOKWIK_VERIFAST", "name": "gokwik-verifast"},
+        {"id": "CURATE_INT", "name": "curate-internal"},
+        {"id": "INTL", "name": "international"}
+      ]
+    },
+    "vijay_created": {
+      "label": "Vijay-Created Channels",
+      "channels": [
+        {"id": "C09LCJ2G66T", "name": "kwikengage-lt-arpu"},
+        {"id": "C0A98V58M71", "name": "kwikengage-product-adoption"},
+        {"id": "C09TAQ6T8TY", "name": "kwikship-engage-msgs"},
+        {"id": "C09R430DAPR", "name": "kwikship-business"},
+        {"id": "C089Q4FME4E", "name": "kwikship-crosssell"},
+        {"id": "MOSAIC_RET", "name": "team-mosaic-retention"},
+        {"id": "MOSAIC_CHAT", "name": "team-mosaic-chatbot-support"}
+      ]
+    },
+    "ops_alerts": {
+      "label": "Ops/Alerts",
+      "channels": [
+        {"id": "C01M9FA5J07", "name": "recognition"},
+        {"id": "C062HNSAPPY", "name": "kwikchat_onboarding_sales"},
+        {"id": "KWIKENG_ELLORA", "name": "kwikengage-ellora"},
+        {"id": "KWIKENG_DE", "name": "kwikengage-de-analytics-internal"}
+      ]
     }
   }
 }
