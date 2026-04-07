@@ -9,6 +9,8 @@ export interface DashboardData {
   financeNeedsClarification: FinanceClarification[];
   jiraTickets: JiraTicket[];
   slackAttention: SlackItem[];
+  confluenceWatch: ConfluenceItem[];
+  deadlinesThisWeek: DeadlineItem[];
   pullStats: PullStats;
 }
 
@@ -97,6 +99,22 @@ export interface FollowUp {
   status: "pending" | "done";
 }
 
+export interface ConfluenceItem {
+  title: string;
+  author: string;
+  lastModified: string;
+  url: string;
+  actionNeeded: string;
+}
+
+export interface DeadlineItem {
+  title: string;
+  date: string;
+  time: string;
+  prepNeeded: boolean;
+  note: string;
+}
+
 export interface PullStats {
   gmailSearched: number;
   gmailUnreplied: number;
@@ -108,6 +126,8 @@ export interface PullStats {
   slackDmsChecked: number;
   slackMentionsFound: number;
   followUpsExtracted: number;
+  confluencePagesScanned?: number;
+  calendarEventsFound?: number;
 }
 
 export interface GoalsData {

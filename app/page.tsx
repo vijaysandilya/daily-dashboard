@@ -6,7 +6,9 @@ import UnrepliedEmails from "@/components/UnrepliedEmails";
 import ActionItems from "@/components/ActionItems";
 import FollowUps from "@/components/FollowUps";
 import PeopleWaiting from "@/components/PeopleWaiting";
+import DeadlinesThisWeek from "@/components/DeadlinesThisWeek";
 import FinanceApprovals from "@/components/FinanceApprovals";
+import ConfluenceWatch from "@/components/ConfluenceWatch";
 import JiraBoard from "@/components/JiraBoard";
 import SlackAttention from "@/components/SlackAttention";
 import OkrTracker from "@/components/OkrTracker";
@@ -43,6 +45,8 @@ export default function Home() {
 
         <PeopleWaiting people={data.peopleWaiting || []} />
 
+        <DeadlinesThisWeek items={data.deadlinesThisWeek || []} />
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <UnrepliedEmails emails={data.unrepliedEmails} />
           <SlackAttention items={data.slackAttention} />
@@ -58,6 +62,8 @@ export default function Home() {
           <FollowUps items={data.followUps || []} />
         </div>
 
+        <ConfluenceWatch items={data.confluenceWatch || []} />
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
           <JiraBoard tickets={data.jiraTickets} />
           <OkrTracker goals={goals} />
@@ -65,7 +71,7 @@ export default function Home() {
       </main>
 
       <footer className="max-w-4xl mx-auto px-4 sm:px-6 py-6 text-center text-xs text-gray-400 dark:text-gray-600">
-        Powered by Claude &middot; Auto-refreshed daily at 7:00 AM IST
+        Powered by Claude &middot; Auto-refreshed 3x daily
       </footer>
     </div>
   );

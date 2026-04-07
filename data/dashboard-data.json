@@ -346,6 +346,8 @@
       "url": "https://app.slack.com/client/T01U48WNDDW/D06NDR8351D"
     }
   ],
+  "confluenceWatch": [],
+  "deadlinesThisWeek": [],
   "pullStats": {
     "gmailSearched": 30,
     "gmailUnreplied": 4,
@@ -356,6 +358,8 @@
     "slackChannelsScanned": 6,
     "slackDmsChecked": 9,
     "slackMentionsFound": 15,
-    "followUpsExtracted": 7
+    "followUpsExtracted": 7,
+    "confluencePagesScanned": 0,
+    "calendarEventsFound": 0
   }
 }
