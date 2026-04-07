@@ -1,15 +1,96 @@
 {
-  "lastRefreshed": "2026-04-06T18:00:00+05:30",
-  "peopleWaiting": [],
+  "lastRefreshed": "2026-04-07T10:30:00+05:30",
+  "peopleWaiting": [
+    {
+      "name": "Pragati Singh",
+      "waitDays": 7,
+      "channels": ["slack", "jira"],
+      "need": "Approval on Jira KWF-1052 & KWF-1042 — unmasked phone data for FYVA campaign",
+      "urgency": "high",
+      "url": "https://gokwik.slack.com/archives/D0631AJV2HK/p1774936293726879"
+    },
+    {
+      "name": "Sachin Mehlawat",
+      "waitDays": 7,
+      "channels": ["slack"],
+      "need": "KAPTURE integration IDs from Avichal — you committed to sourcing; CSM blocked on merchant onboarding",
+      "urgency": "high",
+      "url": "https://gokwik.slack.com/archives/C055RM5CNEB/p1774933194698789"
+    },
+    {
+      "name": "Rahul Bareja",
+      "waitDays": 7,
+      "channels": ["slack"],
+      "need": "Pinnacle account stuck — needs you to directly connect with them to unblock CSM",
+      "urgency": "high",
+      "url": "https://gokwik.slack.com/archives/C055RM5CNEB/p1775461403379089"
+    },
+    {
+      "name": "Raoul Edward",
+      "waitDays": 7,
+      "channels": ["slack"],
+      "need": "Review a Slack thread (with screenshots). Followed up Mar 31 + Apr 2 — still no reply from you",
+      "urgency": "medium",
+      "url": "https://gokwik.slack.com/archives/D05HWUX6F8T/p1774953213082309"
+    },
+    {
+      "name": "Mrigank Srivastava",
+      "waitDays": 6,
+      "channels": ["email", "slack"],
+      "need": "Review and validate his goals list (Shiprocket, KwikShip Jira, NDR experiments, KwikPass)",
+      "urgency": "medium",
+      "url": "https://app.slack.com/client/T01U48WNDDW/D09U7R4HKLY"
+    },
+    {
+      "name": "Tanmay Shrivastava",
+      "waitDays": 5,
+      "channels": ["slack"],
+      "need": "Awaiting your call on timing for a pending task ('kab krna hai?')",
+      "urgency": "medium",
+      "url": "https://app.slack.com/client/T01U48WNDDW/D07EZDX8F1T"
+    },
+    {
+      "name": "Shivika Taneja (TrustSignal)",
+      "waitDays": 1,
+      "channels": ["email"],
+      "need": "External vendor chasing invoice discrepancy (Inv_1433_Goexcelsior) — no update from GoKwik side",
+      "urgency": "high",
+      "url": "https://mail.google.com/mail/u/0/#inbox/19d62d8e615da3bc"
+    },
+    {
+      "name": "Nidhi Shah",
+      "waitDays": 1,
+      "channels": ["email"],
+      "need": "Help closing 4 pending vendor payment emails — explicitly asked you to action",
+      "urgency": "high",
+      "url": "https://mail.google.com/mail/u/0/#inbox/19d634a6e458f41f"
+    },
+    {
+      "name": "Ruchika Nagpal",
+      "waitDays": 1,
+      "channels": ["email", "slack"],
+      "need": "Approval for live accounts without signed agreement (compliance risk) — pinged on email + Slack",
+      "urgency": "high",
+      "url": "https://mail.google.com/mail/u/0/#inbox/19d63157278bed77"
+    },
+    {
+      "name": "Akshay Jain",
+      "waitDays": 1,
+      "channels": ["slack"],
+      "need": "Decision needed: 'we doing this??' — initiative go/no-go in group DM with Vivek/Tanmay/Anil",
+      "urgency": "medium",
+      "url": "https://app.slack.com/client/T01U48WNDDW/C0AQC955L8M"
+    }
+  ],
   "aiBriefing": {
-    "summary": "After reading 30 Gmail threads and 7 Jira tickets (23 comments): your JFM QBR deck is due to Vivek Premnath by Wed/Thu (8-9 Apr) — this is the top deadline. Nidhi Shah flagged 4 open vendor billing disputes from your new payment process that need closure. Jaipur Fabric is a churn risk (SMS broken, no AM for 2 months). Only 1 Jira ticket needs you (pricing recovery plan, 24 days stale) — the other 6 you already approved. Tanmay shared a KwikShip feature priority list and Mrigank needs help with his goals.",
+    "summary": "10 people are waiting on you. Longest waiters: Pragati Singh (7 days — Jira approvals), Sachin Mehlawat (7 days — KAPTURE IDs you promised), Rahul Bareja (7 days — Pinnacle account unblock). QBR deck is due TOMORROW (Wed 8 Apr). Jira now includes KWIK project (was completely invisible before). Nidhi is literally waiting tonight for help closing 4 vendor billing disputes.",
     "highlights": [
-      "🔴 DEADLINE: QBR deck due to Vivek Premnath by Wed 8 Apr (Thu 9 Apr latest). Biz QBR rescheduled to 15 Apr, now Q&A-only — deck must be shared for async review.",
-      "🟡 VENDOR BILLING: Nidhi flagged 4 open disputes — RML WA variance, WA conversation diff, SMS/Goexcelsior invoices, Chatbot AI rate. Also need to name Tech SPOC and CSM SPOC.",
-      "🟡 CHURN RISK: Jaipur Fabric (Praveen Kaushik, CMO) — SMS campaigns broken, no account manager for 2 months. Explicitly threatening to leave.",
-      "🟡 KWIKSHIP: Tanmay shared feature priority list (address-to-latlong, NDR address change, shipper selection, EDD for KE). Review and confirm priorities.",
-      "🟡 JIRA: TO-66065 (pricing recovery) — Ruchika waiting 24 days for your input on recovery approach for 5 prepaid merchants.",
-      "🟡 GOALS: Mrigank needs your help finalizing his goals (Shiprocket integration, Custom API, KwikShip Jira sanitisation, NDR experiments, OMS, KwikPass custom merchants)."
+      "🔴 DEADLINE: QBR deck due TOMORROW (Wed 8 Apr) to Vivek Premnath. Biz QBR on 15 Apr — deck needed for async review.",
+      "🔴 PEOPLE: 10 people waiting on you. 4 have been waiting 7 days (Pragati, Sachin, Rahul, Raoul). Check the People Waiting section.",
+      "🔴 FINANCE: TrustSignal external vendor chasing 42L+ invoice discrepancy — Shivika literally emailed again yesterday.",
+      "🟡 COMPLIANCE: Ruchika needs approval for live accounts without signed agreements — pinged on email + Slack.",
+      "🟡 KWIKSHIP: KWIK-593 (courier name change) was invisible until audit — now tracked. Also Tanmay's feature priority list needs review.",
+      "🟡 COMMITMENT: You told Sachin you'd get KAPTURE IDs from Avichal. 7 days and counting."
     ]
   },
   "unrepliedEmails": [
@@ -189,6 +270,15 @@
       "dueDate": null,
       "url": "https://gokwik.atlassian.net/browse/TO-66065",
       "type": "Finance/Ops"
+    },
+    {
+      "key": "KWIK-593",
+      "summary": "Change courier name (Delhivery)",
+      "status": "New",
+      "priority": "Medium",
+      "dueDate": null,
+      "url": "https://gokwik.atlassian.net/browse/KWIK-593",
+      "type": "KwikShip Ops"
     }
   ],
   "slackAttention": [
